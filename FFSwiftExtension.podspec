@@ -27,14 +27,22 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.s.swift_version = '5.0'
+  s.swift_version = '5.0'
   s.source_files = 'FFSwiftExtension/Classes/**/*'
   
+  
+  s.subspec 'UIKit' do |ss|
+      ss.source_files = 'FFSwiftExtension/UI{Application,Button,Color,Label,Pasteboard,Screen,View,ViewController}+Ex.swift'
+  end
+  
+  s.subspec 'Foundation' do |ss|
+      ss.source_files = 'FFSwiftExtension/{String}+Ex.swift', 'FFSwiftExtension/UserDefaults.swift'
+  end
   # s.resource_bundles = {
   #   'FFSwiftExtension' => ['FFSwiftExtension/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
