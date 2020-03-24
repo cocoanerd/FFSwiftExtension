@@ -1,0 +1,6 @@
+framework module Pods_FFSwiftExtension_Example {
+  umbrella header "Pods-FFSwiftExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

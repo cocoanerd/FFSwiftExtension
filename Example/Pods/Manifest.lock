@@ -1,0 +1,16 @@
+PODS:
+  - FFSwiftExtension (0.1.0)
+
+DEPENDENCIES:
+  - FFSwiftExtension (from `../`)
+
+EXTERNAL SOURCES:
+  FFSwiftExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FFSwiftExtension: cc514baef54324e4514648d7590adcf8fc8eeda8
+
+PODFILE CHECKSUM: 854dc69cbba6da2d8d9106a72749a9b523b24b09
+
+COCOAPODS: 1.8.4

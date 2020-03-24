@@ -1,0 +1,22 @@
+{
+  "name": "FFSwiftExtension",
+  "version": "0.1.0",
+  "summary": "A short description of FFSwiftExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cocoanerd/FFSwiftExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cocoanerd": "cocoanerd@163.com"
+  },
+  "source": {
+    "git": "https://github.com/cocoanerd/FFSwiftExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFSwiftExtension/Classes/**/*"
+}

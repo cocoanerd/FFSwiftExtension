@@ -1,0 +1,6 @@
+framework module FFSwiftExtension {
+  umbrella header "FFSwiftExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
