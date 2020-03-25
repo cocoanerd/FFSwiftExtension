@@ -64,11 +64,6 @@ public extension UIColor {
         return RGB(CGFloat(red), CGFloat(green), CGFloat(blue), alpha)
     }
     
-    /// 十六进制转UIColor
-    /// - Parameter hexString: 16进制色值
-    @objc class func hexString(hexString: String?) -> UIColor {
-        return color(hexString: hexString, alpha: 1, defaultColor: .white)
-    }
     
     /// 颜色变化
     /// - Parameter from: 开始颜色

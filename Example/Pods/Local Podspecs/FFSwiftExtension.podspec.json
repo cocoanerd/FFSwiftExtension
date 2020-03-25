@@ -19,7 +19,6 @@
     "ios": "8.0"
   },
   "swift_versions": "5.0",
-  "source_files": "FFSwiftExtension/Classes/**/*",
   "frameworks": [
     "UIKit",
     "Foundation"

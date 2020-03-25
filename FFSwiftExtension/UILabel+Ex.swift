@@ -28,7 +28,7 @@ public extension UILabel {
                 
         var length = text.length - 1
         let lastStr = text.substring(with: NSRange(location: length, length: 1))
-        var margin = (labelWidth - size.width) / CGFloat(length)
+        var margin = (labelWidth - 10 -  size.width) / CGFloat(length)
         if lastStr == ":" || lastStr == "：" {
             length = text.length - 2
             //这个10是冒号：这个空隙，使用富文本右对齐，冒号后面会没有空隙，减去这个6实际效果就有空隙了

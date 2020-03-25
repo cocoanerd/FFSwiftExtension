@@ -6,7 +6,6 @@
 //
 
 import UIKit
-
 public extension UIButton {
     /// 设置图片在右边
     /// - Parameter space: 间距
@@ -59,14 +58,14 @@ public class ExpandEdgeInsets: NSObject {
     var left: CGFloat
     var bottom: CGFloat
     var right: CGFloat
-    init(top: CGFloat = 0, left: CGFloat = 0, bottom: CGFloat = 0, right: CGFloat = 0) {
+    public init(top: CGFloat = 0, left: CGFloat = 0, bottom: CGFloat = 0, right: CGFloat = 0) {
         self.top = top
         self.left = left
         self.bottom = bottom
         self.right = right
     }
 
-    convenience init(edge: CGFloat = 0) {
+    public convenience init(edge: CGFloat = 0) {
         self.init(top: edge, left: edge, bottom: edge, right: edge)
     }
 }
