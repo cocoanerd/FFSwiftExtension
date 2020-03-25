@@ -27,3 +27,6 @@ cocoanerd, cocoanerd@163.com
 ## License
 
 FFSwiftExtension is available under the MIT license. See the LICENSE file for more info.
+
+## gif
+![image](https://github.com/cocoanerd/FFSwiftExtension/gif/QQ20200325-170824-HD.gif)
