@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFSwiftExtension: d762d65e4e56eac30a8c2d385b70efee54d02f45
+  FFSwiftExtension: f1dbf4820cf83d0a350e8de8d35f08ee40a69d7e
 
 PODFILE CHECKSUM: 854dc69cbba6da2d8d9106a72749a9b523b24b09
 

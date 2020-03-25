@@ -32,7 +32,7 @@
     {
       "name": "Foundation",
       "source_files": [
-        "FFSwiftExtension/{String}+Ex.swift",
+        "FFSwiftExtension/{String,AttributedString,CGFloat,Double,Int}+Ex.swift",
         "FFSwiftExtension/UserDefaults.swift"
       ]
     }

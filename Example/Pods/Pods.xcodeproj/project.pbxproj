@@ -7,26 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AA5BC8C8509731BF452F05458CE673B /* UIViewController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0C9906AF5FC0550616AF0A56137A52 /* UIViewController+Ex.swift */; };
-		0DA0A8AE424DA6262D682E9C58A58063 /* UIButton+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A548DDFFED4C19A6BCB6282A17774 /* UIButton+Ex.swift */; };
-		43506D2A8871EFE9E383228A8393B0C9 /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D529CE2403FED082E5F9CD44906AAAA /* UIView+Ex.swift */; };
-		5322AEA0C810990B471928BD59C1580D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		0F1215EFAE5F2361BD33D575BB4A525D /* CGFloat+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F234CD509CBDF8B8E6D8AC777E6F0B /* CGFloat+Ex.swift */; };
+		1CCD6178C6D1B9BB4170C0DAA2788A1B /* Int+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DACFEAD533C27FC65A20CDF1A6285A /* Int+Ex.swift */; };
+		27A92C129F8290835174843D8A391450 /* AttributedString+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0FEBA468115147A2EE67FB11C35030 /* AttributedString+Ex.swift */; };
+		2984F1CADE206EFDF625CB39EEC400F8 /* UIApplication+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98384BAB232A38DFE276E56EAD73187C /* UIApplication+Ex.swift */; };
+		29D15FCC4F822334CD0039319AE7006B /* UIPasteboard+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2DF811F8CD4AE9156CE3643BDA721 /* UIPasteboard+Ex.swift */; };
+		364AF4EDAF58A76FCBEA78BA0EA9C42C /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16343FA7FE9A2804D6A5CC7CD45A6481 /* UserDefaults.swift */; };
+		4627C11CC0E673279CD33E48658F184C /* FFSwiftExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D691CE0B58AB8B01A1DCADAE43CC5DB /* FFSwiftExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F4E68482758B902DE35AB23C3095F95 /* UIScreen+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D55EE7EE6AFCDA8D9D8E18E054B0F7 /* UIScreen+Ex.swift */; };
 		5C74E2E45B7C7EF5088B25034482D8F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		5E3D0292034B27FFD3CCF005F421C766 /* UILabel+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC53D269CB1C28AA3D435C9C946B8682 /* UILabel+Ex.swift */; };
-		6ED8B020B264B0C57F59A79212475DA9 /* UIApplication+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FDF7DD59394EFE6237B020A4A4A410 /* UIApplication+Ex.swift */; };
-		70813D86D81C4761E50C7530E7ECAC39 /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E019A6E0A386FDF6C5DA5C1CA7FF1F0 /* UIColor+Ex.swift */; };
-		79238E5141E5D31C59C27D87D5CF3987 /* UIPasteboard+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C86D30548F6C3DFA2F2FEC16BC3C88F /* UIPasteboard+Ex.swift */; };
-		8F7383A4313B6CC36294D9DC6CDE9781 /* FFSwiftExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BDCD47A8B3B8C6D3AB694726F8BBE54 /* FFSwiftExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E8D5C6CE69843C1AF77B5D53CF315FF /* UIButton+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9326C8B42FEB698F5C19296E50D330 /* UIButton+Ex.swift */; };
+		64E063AB13C3582AE82F9451802C57A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		6CA6C9AB877605448A441C67C3002CF9 /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A8E723BC36D557142163842FD19D2 /* UIView+Ex.swift */; };
+		9B8B852A64EF93BE3D0DDAEF74214E56 /* FFSwiftExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF20A11C08172B5D44B65D39B8953EF /* FFSwiftExtension-dummy.m */; };
 		9FBE60290C02995C9FD8465590561175 /* Pods-FFSwiftExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FE601971BE290EC56F16806C59DEBE /* Pods-FFSwiftExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A45D6C5825E933A12AD7E275FA1A2EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		A4F27A41FA190B1E82582D7198925F36 /* Double+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C3E4E4013F34E45A69FBDB8302A764 /* Double+Ex.swift */; };
 		A56BC4459E09130594BB77556AB9C418 /* Pods-FFSwiftExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3675C300D3DEB595B847C45F60AA37 /* Pods-FFSwiftExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6521CAE9F4124280B84B1776C45D3D4 /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD45C8EC0FB36836C3F352085DBC5F94 /* UIColor+Ex.swift */; };
 		AA3C7E4F51E0BABA86A906D6DCD9461D /* Pods-FFSwiftExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F940219C158DBD6F47BFD3D99C38B58 /* Pods-FFSwiftExtension_Example-dummy.m */; };
-		AB5021430755ACD6094134A2B3FC8625 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800FB288899845773B6FD27D49D70465 /* UserDefaults.swift */; };
-		B88F00AF549954101BE595E97D0848C9 /* FFSwiftExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B0C970E2C8FF0EC84949E0AA266A82 /* FFSwiftExtension-dummy.m */; };
-		BAD8168336E856306597F583E05A13B6 /* UIScreen+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169BBEB4BABCC40840A7B881E65285D8 /* UIScreen+Ex.swift */; };
-		CC6681F8D1036FFA37AAB7E46457E0AE /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57C73340D90428352A65E368D671DB /* String+Ex.swift */; };
+		B7ADEBA0525BA826C6D09B4E9C27437F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		E68748A813B222C6FEA4386A697F51B3 /* Pods-FFSwiftExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FEB652C36489A6A9E7B0F326E0390 /* Pods-FFSwiftExtension_Tests-dummy.m */; };
-		F500E0E856BEBCE4B05B66558F961320 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		EF878AEA495B721640490D0DC75C5FBE /* UILabel+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AD68E463699207375A0E35E0BCF83 /* UILabel+Ex.swift */; };
+		EF8F34935133957D3C68ED369B4B5D9A /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE8944334F7B17E74955A78D5D78E6 /* String+Ex.swift */; };
+		F9F91CAF82444C709E6BD9FC65AB7FB6 /* UIViewController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105DC862E2CAE60403FC909D80FB114 /* UIViewController+Ex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,64 +52,68 @@
 
 /* Begin PBXFileReference section */
 		03DF972A9F1C445D40759E0CE2033248 /* Pods-FFSwiftExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFSwiftExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
+		09F234CD509CBDF8B8E6D8AC777E6F0B /* CGFloat+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGFloat+Ex.swift"; path = "FFSwiftExtension/CGFloat+Ex.swift"; sourceTree = "<group>"; };
 		09FC87D874EE2CB4E1DABFBEF44C1BDF /* Pods-FFSwiftExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFSwiftExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0B3FEB652C36489A6A9E7B0F326E0390 /* Pods-FFSwiftExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFSwiftExtension_Tests-dummy.m"; sourceTree = "<group>"; };
-		0BDCD47A8B3B8C6D3AB694726F8BBE54 /* FFSwiftExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFSwiftExtension-umbrella.h"; sourceTree = "<group>"; };
-		0E019A6E0A386FDF6C5DA5C1CA7FF1F0 /* UIColor+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Ex.swift"; path = "FFSwiftExtension/UIColor+Ex.swift"; sourceTree = "<group>"; };
 		0F2B1A6843994F87BDC2390936986373 /* Pods-FFSwiftExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFSwiftExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		10B6F7F9A4A233D5B6167F8A6EDAB7BD /* Pods-FFSwiftExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFSwiftExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		169BBEB4BABCC40840A7B881E65285D8 /* UIScreen+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+Ex.swift"; path = "FFSwiftExtension/UIScreen+Ex.swift"; sourceTree = "<group>"; };
-		1AA63003A8DE99A80534ADC0F7B903E2 /* FFSwiftExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFSwiftExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		11C3D4C6FD9915017EAA17DA39441A6A /* FFSwiftExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFSwiftExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1399B753EB5F68A125681927D813BC7A /* FFSwiftExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFSwiftExtension.modulemap; sourceTree = "<group>"; };
+		162BDFD7CE71F9442C2FDA75576AF83A /* FFSwiftExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFSwiftExtension-Info.plist"; sourceTree = "<group>"; };
+		16343FA7FE9A2804D6A5CC7CD45A6481 /* UserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaults.swift; path = FFSwiftExtension/UserDefaults.swift; sourceTree = "<group>"; };
+		1AA949F91BB9167C5B4C41B16A5C294F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1E6A8A70D8F58A6B407BDB07F5DAAEFB /* Pods-FFSwiftExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFSwiftExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2D529CE2403FED082E5F9CD44906AAAA /* UIView+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Ex.swift"; path = "FFSwiftExtension/UIView+Ex.swift"; sourceTree = "<group>"; };
+		2C0FEBA468115147A2EE67FB11C35030 /* AttributedString+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AttributedString+Ex.swift"; path = "FFSwiftExtension/AttributedString+Ex.swift"; sourceTree = "<group>"; };
+		2F3AD68E463699207375A0E35E0BCF83 /* UILabel+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Ex.swift"; path = "FFSwiftExtension/UILabel+Ex.swift"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		338D714419F97A94CD60888B4C925D9A /* Pods-FFSwiftExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFSwiftExtension_Example.modulemap"; sourceTree = "<group>"; };
 		3A60E375479F7D999AD2383624477F80 /* Pods-FFSwiftExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFSwiftExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D4AB8BC135BB334C30F49650B839416 /* FFSwiftExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFSwiftExtension.xcconfig; sourceTree = "<group>"; };
+		3D691CE0B58AB8B01A1DCADAE43CC5DB /* FFSwiftExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFSwiftExtension-umbrella.h"; sourceTree = "<group>"; };
+		4105DC862E2CAE60403FC909D80FB114 /* UIViewController+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Ex.swift"; path = "FFSwiftExtension/UIViewController+Ex.swift"; sourceTree = "<group>"; };
+		41C3E4E4013F34E45A69FBDB8302A764 /* Double+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+Ex.swift"; path = "FFSwiftExtension/Double+Ex.swift"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4DF20A11C08172B5D44B65D39B8953EF /* FFSwiftExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFSwiftExtension-dummy.m"; sourceTree = "<group>"; };
 		4F940219C158DBD6F47BFD3D99C38B58 /* Pods-FFSwiftExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFSwiftExtension_Example-dummy.m"; sourceTree = "<group>"; };
 		538DC770B4CDE60D8B9A6012514F1582 /* Pods-FFSwiftExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFSwiftExtension_Tests-Info.plist"; sourceTree = "<group>"; };
+		54D55EE7EE6AFCDA8D9D8E18E054B0F7 /* UIScreen+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+Ex.swift"; path = "FFSwiftExtension/UIScreen+Ex.swift"; sourceTree = "<group>"; };
 		5D4FC2D3DDA53FF1F38212A9586B7690 /* Pods-FFSwiftExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFSwiftExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5E0C9906AF5FC0550616AF0A56137A52 /* UIViewController+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Ex.swift"; path = "FFSwiftExtension/UIViewController+Ex.swift"; sourceTree = "<group>"; };
-		5F08E0681398AE24022B90F5280A02AA /* FFSwiftExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFSwiftExtension-prefix.pch"; sourceTree = "<group>"; };
-		7C86D30548F6C3DFA2F2FEC16BC3C88F /* UIPasteboard+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPasteboard+Ex.swift"; path = "FFSwiftExtension/UIPasteboard+Ex.swift"; sourceTree = "<group>"; };
-		800FB288899845773B6FD27D49D70465 /* UserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaults.swift; path = FFSwiftExtension/UserDefaults.swift; sourceTree = "<group>"; };
-		876A548DDFFED4C19A6BCB6282A17774 /* UIButton+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Ex.swift"; path = "FFSwiftExtension/UIButton+Ex.swift"; sourceTree = "<group>"; };
-		8A1ECBA61B5872A91B0380FDD3633346 /* FFSwiftExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFSwiftExtension-Info.plist"; sourceTree = "<group>"; };
-		8E57C73340D90428352A65E368D671DB /* String+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Ex.swift"; path = "FFSwiftExtension/String+Ex.swift"; sourceTree = "<group>"; };
-		9D7A2719D2C01B13A6B9278D81DC949A /* FFSwiftExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFSwiftExtension.modulemap; sourceTree = "<group>"; };
+		71B2DF811F8CD4AE9156CE3643BDA721 /* UIPasteboard+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPasteboard+Ex.swift"; path = "FFSwiftExtension/UIPasteboard+Ex.swift"; sourceTree = "<group>"; };
+		78E3217A7AF0A1BF56754FDB556B1530 /* FFSwiftExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFSwiftExtension-prefix.pch"; sourceTree = "<group>"; };
+		847A8E723BC36D557142163842FD19D2 /* UIView+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Ex.swift"; path = "FFSwiftExtension/UIView+Ex.swift"; sourceTree = "<group>"; };
+		98384BAB232A38DFE276E56EAD73187C /* UIApplication+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Ex.swift"; path = "FFSwiftExtension/UIApplication+Ex.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC173B5A56839301C07D3B8F892FD02C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AE9326C8B42FEB698F5C19296E50D330 /* UIButton+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Ex.swift"; path = "FFSwiftExtension/UIButton+Ex.swift"; sourceTree = "<group>"; };
 		B02EE56C55B86AD02BF2543740A29320 /* FFSwiftExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFSwiftExtension.framework; path = FFSwiftExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4FDF7DD59394EFE6237B020A4A4A410 /* UIApplication+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Ex.swift"; path = "FFSwiftExtension/UIApplication+Ex.swift"; sourceTree = "<group>"; };
 		B6B5607236E0E909605DC8F73A5C8547 /* Pods-FFSwiftExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFSwiftExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0233BC4E12897D6F6EF9AED8F35FB4C /* Pods_FFSwiftExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFSwiftExtension_Tests.framework; path = "Pods-FFSwiftExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C686EF21A505D168A9D5B7C0E739A396 /* Pods-FFSwiftExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFSwiftExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		C9EC5624ED68095413B88FB465C7FAEA /* FFSwiftExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFSwiftExtension.xcconfig; sourceTree = "<group>"; };
+		CD45C8EC0FB36836C3F352085DBC5F94 /* UIColor+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Ex.swift"; path = "FFSwiftExtension/UIColor+Ex.swift"; sourceTree = "<group>"; };
+		DABE8944334F7B17E74955A78D5D78E6 /* String+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Ex.swift"; path = "FFSwiftExtension/String+Ex.swift"; sourceTree = "<group>"; };
 		DB0ADADD529F320FC4BDD9CAC2BDA58A /* Pods-FFSwiftExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFSwiftExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E3FE601971BE290EC56F16806C59DEBE /* Pods-FFSwiftExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFSwiftExtension_Example-umbrella.h"; sourceTree = "<group>"; };
 		E8474B2ED6865BCFA8AB32E102A24771 /* Pods_FFSwiftExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFSwiftExtension_Example.framework; path = "Pods-FFSwiftExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3675C300D3DEB595B847C45F60AA37 /* Pods-FFSwiftExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFSwiftExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EA3950AB1217A5E5E8984B923930D421 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F0B0C970E2C8FF0EC84949E0AA266A82 /* FFSwiftExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFSwiftExtension-dummy.m"; sourceTree = "<group>"; };
 		F0C4F4B64D8FD821AAD8F3E981E9C62A /* Pods-FFSwiftExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFSwiftExtension_Example-Info.plist"; sourceTree = "<group>"; };
-		F40C9E0470A2E3456692E122231CF1F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FC53D269CB1C28AA3D435C9C946B8682 /* UILabel+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Ex.swift"; path = "FFSwiftExtension/UILabel+Ex.swift"; sourceTree = "<group>"; };
+		F5DACFEAD533C27FC65A20CDF1A6285A /* Int+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Ex.swift"; path = "FFSwiftExtension/Int+Ex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07FC15FB4420FB37E82DC20FDC2387FB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5322AEA0C810990B471928BD59C1580D /* Foundation.framework in Frameworks */,
-				F500E0E856BEBCE4B05B66558F961320 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		132E3C53414C948F413B89426C1CE10B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A45D6C5825E933A12AD7E275FA1A2EC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18D8E8EB95A56D3DEC5614E6D271C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E063AB13C3582AE82F9451802C57A5 /* Foundation.framework in Frameworks */,
+				B7ADEBA0525BA826C6D09B4E9C27437F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,50 +152,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2E38DA194FF510F512120389650CDFDB /* Pod */ = {
+		52C39BB58052E4D7CC728B360A39F105 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1AA63003A8DE99A80534ADC0F7B903E2 /* FFSwiftExtension.podspec */,
-				F40C9E0470A2E3456692E122231CF1F5 /* LICENSE */,
-				EA3950AB1217A5E5E8984B923930D421 /* README.md */,
+				1399B753EB5F68A125681927D813BC7A /* FFSwiftExtension.modulemap */,
+				C9EC5624ED68095413B88FB465C7FAEA /* FFSwiftExtension.xcconfig */,
+				4DF20A11C08172B5D44B65D39B8953EF /* FFSwiftExtension-dummy.m */,
+				162BDFD7CE71F9442C2FDA75576AF83A /* FFSwiftExtension-Info.plist */,
+				78E3217A7AF0A1BF56754FDB556B1530 /* FFSwiftExtension-prefix.pch */,
+				3D691CE0B58AB8B01A1DCADAE43CC5DB /* FFSwiftExtension-umbrella.h */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		34B0DF4E0E3AC083633F0F18BE15243C /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				8E57C73340D90428352A65E368D671DB /* String+Ex.swift */,
-				800FB288899845773B6FD27D49D70465 /* UserDefaults.swift */,
-			);
-			name = Foundation;
-			sourceTree = "<group>";
-		};
-		3A7B34BFEB0BEC34A37CF20A81FA777C /* FFSwiftExtension */ = {
-			isa = PBXGroup;
-			children = (
-				34B0DF4E0E3AC083633F0F18BE15243C /* Foundation */,
-				2E38DA194FF510F512120389650CDFDB /* Pod */,
-				C494CFB9AB5D13057C64FD960D530FD9 /* Support Files */,
-				47D2483B748DD8232F45B6C82900E693 /* UIKit */,
-			);
-			name = FFSwiftExtension;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		47D2483B748DD8232F45B6C82900E693 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				B4FDF7DD59394EFE6237B020A4A4A410 /* UIApplication+Ex.swift */,
-				876A548DDFFED4C19A6BCB6282A17774 /* UIButton+Ex.swift */,
-				0E019A6E0A386FDF6C5DA5C1CA7FF1F0 /* UIColor+Ex.swift */,
-				FC53D269CB1C28AA3D435C9C946B8682 /* UILabel+Ex.swift */,
-				7C86D30548F6C3DFA2F2FEC16BC3C88F /* UIPasteboard+Ex.swift */,
-				169BBEB4BABCC40840A7B881E65285D8 /* UIScreen+Ex.swift */,
-				2D529CE2403FED082E5F9CD44906AAAA /* UIView+Ex.swift */,
-				5E0C9906AF5FC0550616AF0A56137A52 /* UIViewController+Ex.swift */,
-			);
-			name = UIKit;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FFSwiftExtension";
 			sourceTree = "<group>";
 		};
 		544C2FD95A63603551C9AAE55864E5CC /* Targets Support Files */ = {
@@ -199,12 +175,35 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		727A7B072E34C5A326AEA79B2A64981C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				11C3D4C6FD9915017EAA17DA39441A6A /* FFSwiftExtension.podspec */,
+				1AA949F91BB9167C5B4C41B16A5C294F /* LICENSE */,
+				AC173B5A56839301C07D3B8F892FD02C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		8C4DAA2E5FCDE91F8CB0D35C13820B3A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A7B34BFEB0BEC34A37CF20A81FA777C /* FFSwiftExtension */,
+				B5A94443A870BBE8A7603D032E393500 /* FFSwiftExtension */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8F29CB1E4941A517693594DF7FDD2321 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				2C0FEBA468115147A2EE67FB11C35030 /* AttributedString+Ex.swift */,
+				09F234CD509CBDF8B8E6D8AC777E6F0B /* CGFloat+Ex.swift */,
+				41C3E4E4013F34E45A69FBDB8302A764 /* Double+Ex.swift */,
+				F5DACFEAD533C27FC65A20CDF1A6285A /* Int+Ex.swift */,
+				DABE8944334F7B17E74955A78D5D78E6 /* String+Ex.swift */,
+				16343FA7FE9A2804D6A5CC7CD45A6481 /* UserDefaults.swift */,
+			);
+			name = Foundation;
 			sourceTree = "<group>";
 		};
 		9093D38AC0607A2403439DEC0BAE62D5 /* Pods-FFSwiftExtension_Example */ = {
@@ -234,18 +233,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C494CFB9AB5D13057C64FD960D530FD9 /* Support Files */ = {
+		B5A94443A870BBE8A7603D032E393500 /* FFSwiftExtension */ = {
 			isa = PBXGroup;
 			children = (
-				9D7A2719D2C01B13A6B9278D81DC949A /* FFSwiftExtension.modulemap */,
-				3D4AB8BC135BB334C30F49650B839416 /* FFSwiftExtension.xcconfig */,
-				F0B0C970E2C8FF0EC84949E0AA266A82 /* FFSwiftExtension-dummy.m */,
-				8A1ECBA61B5872A91B0380FDD3633346 /* FFSwiftExtension-Info.plist */,
-				5F08E0681398AE24022B90F5280A02AA /* FFSwiftExtension-prefix.pch */,
-				0BDCD47A8B3B8C6D3AB694726F8BBE54 /* FFSwiftExtension-umbrella.h */,
+				8F29CB1E4941A517693594DF7FDD2321 /* Foundation */,
+				727A7B072E34C5A326AEA79B2A64981C /* Pod */,
+				52C39BB58052E4D7CC728B360A39F105 /* Support Files */,
+				BDBC9955D59815EC08280E5F19C0A976 /* UIKit */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FFSwiftExtension";
+			name = FFSwiftExtension;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BDBC9955D59815EC08280E5F19C0A976 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				98384BAB232A38DFE276E56EAD73187C /* UIApplication+Ex.swift */,
+				AE9326C8B42FEB698F5C19296E50D330 /* UIButton+Ex.swift */,
+				CD45C8EC0FB36836C3F352085DBC5F94 /* UIColor+Ex.swift */,
+				2F3AD68E463699207375A0E35E0BCF83 /* UILabel+Ex.swift */,
+				71B2DF811F8CD4AE9156CE3643BDA721 /* UIPasteboard+Ex.swift */,
+				54D55EE7EE6AFCDA8D9D8E18E054B0F7 /* UIScreen+Ex.swift */,
+				847A8E723BC36D557142163842FD19D2 /* UIView+Ex.swift */,
+				4105DC862E2CAE60403FC909D80FB114 /* UIViewController+Ex.swift */,
+			);
+			name = UIKit;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -279,19 +291,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		826C5A0DB5EADB42E5DEB5551B90A60C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F7383A4313B6CC36294D9DC6CDE9781 /* FFSwiftExtension-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8DC1F3E8F5A3E2C1560B73D67156A7E7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9FBE60290C02995C9FD8465590561175 /* Pods-FFSwiftExtension_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9285C1A8D0D4C3EEF196A55BEA387869 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4627C11CC0E673279CD33E48658F184C /* FFSwiftExtension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,12 +331,12 @@
 		};
 		5C230CE5EFC9BDEB13762638E3E41FE7 /* FFSwiftExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B4B9169A0BCD0089515213A5756005E /* Build configuration list for PBXNativeTarget "FFSwiftExtension" */;
+			buildConfigurationList = 823DF63D3C61B648D843B792825AB24E /* Build configuration list for PBXNativeTarget "FFSwiftExtension" */;
 			buildPhases = (
-				826C5A0DB5EADB42E5DEB5551B90A60C /* Headers */,
-				090F103F11B3BE66E0C213BBBEF0721A /* Sources */,
-				07FC15FB4420FB37E82DC20FDC2387FB /* Frameworks */,
-				5F536F31FB06369EABE1583FEB2E85C8 /* Resources */,
+				9285C1A8D0D4C3EEF196A55BEA387869 /* Headers */,
+				E3C41568909797D7C7BD4C12E12B3713 /* Sources */,
+				C18D8E8EB95A56D3DEC5614E6D271C61 /* Frameworks */,
+				9B9EAC33CE5721C7217203556ADFF934 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -398,7 +410,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F536F31FB06369EABE1583FEB2E85C8 /* Resources */ = {
+		9B9EAC33CE5721C7217203556ADFF934 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -408,24 +420,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		090F103F11B3BE66E0C213BBBEF0721A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B88F00AF549954101BE595E97D0848C9 /* FFSwiftExtension-dummy.m in Sources */,
-				CC6681F8D1036FFA37AAB7E46457E0AE /* String+Ex.swift in Sources */,
-				6ED8B020B264B0C57F59A79212475DA9 /* UIApplication+Ex.swift in Sources */,
-				0DA0A8AE424DA6262D682E9C58A58063 /* UIButton+Ex.swift in Sources */,
-				70813D86D81C4761E50C7530E7ECAC39 /* UIColor+Ex.swift in Sources */,
-				5E3D0292034B27FFD3CCF005F421C766 /* UILabel+Ex.swift in Sources */,
-				79238E5141E5D31C59C27D87D5CF3987 /* UIPasteboard+Ex.swift in Sources */,
-				BAD8168336E856306597F583E05A13B6 /* UIScreen+Ex.swift in Sources */,
-				43506D2A8871EFE9E383228A8393B0C9 /* UIView+Ex.swift in Sources */,
-				0AA5BC8C8509731BF452F05458CE673B /* UIViewController+Ex.swift in Sources */,
-				AB5021430755ACD6094134A2B3FC8625 /* UserDefaults.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2F4B7CE62E804EBA8C780E61F1BFDF4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -439,6 +433,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3C7E4F51E0BABA86A906D6DCD9461D /* Pods-FFSwiftExtension_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C41568909797D7C7BD4C12E12B3713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A92C129F8290835174843D8A391450 /* AttributedString+Ex.swift in Sources */,
+				0F1215EFAE5F2361BD33D575BB4A525D /* CGFloat+Ex.swift in Sources */,
+				A4F27A41FA190B1E82582D7198925F36 /* Double+Ex.swift in Sources */,
+				9B8B852A64EF93BE3D0DDAEF74214E56 /* FFSwiftExtension-dummy.m in Sources */,
+				1CCD6178C6D1B9BB4170C0DAA2788A1B /* Int+Ex.swift in Sources */,
+				EF8F34935133957D3C68ED369B4B5D9A /* String+Ex.swift in Sources */,
+				2984F1CADE206EFDF625CB39EEC400F8 /* UIApplication+Ex.swift in Sources */,
+				5E8D5C6CE69843C1AF77B5D53CF315FF /* UIButton+Ex.swift in Sources */,
+				A6521CAE9F4124280B84B1776C45D3D4 /* UIColor+Ex.swift in Sources */,
+				EF878AEA495B721640490D0DC75C5FBE /* UILabel+Ex.swift in Sources */,
+				29D15FCC4F822334CD0039319AE7006B /* UIPasteboard+Ex.swift in Sources */,
+				4F4E68482758B902DE35AB23C3095F95 /* UIScreen+Ex.swift in Sources */,
+				6CA6C9AB877605448A441C67C3002CF9 /* UIView+Ex.swift in Sources */,
+				F9F91CAF82444C709E6BD9FC65AB7FB6 /* UIViewController+Ex.swift in Sources */,
+				364AF4EDAF58A76FCBEA78BA0EA9C42C /* UserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,38 +476,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2B39C6DC5506C78D6013292B2CBFD1F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D4AB8BC135BB334C30F49650B839416 /* FFSwiftExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FFSwiftExtension/FFSwiftExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FFSwiftExtension/FFSwiftExtension-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FFSwiftExtension/FFSwiftExtension.modulemap";
-				PRODUCT_MODULE_NAME = FFSwiftExtension;
-				PRODUCT_NAME = FFSwiftExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		52B3A777AF237B53F6C08FBF3322EE13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB0ADADD529F320FC4BDD9CAC2BDA58A /* Pods-FFSwiftExtension_Tests.release.xcconfig */;
@@ -560,9 +544,41 @@
 			};
 			name = Release;
 		};
-		6A9FBA14EAA7B4E2173C53F7EFFA378E /* Debug */ = {
+		7B6B98912611DD0A2B2AEA6AA200D74F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D4AB8BC135BB334C30F49650B839416 /* FFSwiftExtension.xcconfig */;
+			baseConfigurationReference = C9EC5624ED68095413B88FB465C7FAEA /* FFSwiftExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FFSwiftExtension/FFSwiftExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFSwiftExtension/FFSwiftExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FFSwiftExtension/FFSwiftExtension.modulemap";
+				PRODUCT_MODULE_NAME = FFSwiftExtension;
+				PRODUCT_NAME = FFSwiftExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E3D2C9AE5BA2556016E03C1BDDE0E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EC5624ED68095413B88FB465C7FAEA /* FFSwiftExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -802,11 +818,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B4B9169A0BCD0089515213A5756005E /* Build configuration list for PBXNativeTarget "FFSwiftExtension" */ = {
+		823DF63D3C61B648D843B792825AB24E /* Build configuration list for PBXNativeTarget "FFSwiftExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A9FBA14EAA7B4E2173C53F7EFFA378E /* Debug */,
-				2B39C6DC5506C78D6013292B2CBFD1F8 /* Release */,
+				8E3D2C9AE5BA2556016E03C1BDDE0E93 /* Debug */,
+				7B6B98912611DD0A2B2AEA6AA200D74F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

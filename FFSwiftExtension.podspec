@@ -28,7 +28,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.swift_version = '5.0'
-  s.source_files = 'FFSwiftExtension/Classes/**/*'
   
   
   s.subspec 'UIKit' do |ss|
@@ -36,7 +35,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'Foundation' do |ss|
-      ss.source_files = 'FFSwiftExtension/{String}+Ex.swift', 'FFSwiftExtension/UserDefaults.swift'
+      ss.source_files = 'FFSwiftExtension/{String,AttributedString,CGFloat,Double,Int}+Ex.swift', 'FFSwiftExtension/UserDefaults.swift'
   end
   # s.resource_bundles = {
   #   'FFSwiftExtension' => ['FFSwiftExtension/Assets/*.png']

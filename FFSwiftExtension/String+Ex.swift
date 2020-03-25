@@ -5,7 +5,7 @@
 //  Created by mmh on 2020/3/24.
 //
 
-import UIKit
+import Foundation
 
 public extension String {
     // MARK: - 高度计算
@@ -95,4 +95,5 @@ public extension String {
         }
         return false
     }
+    
 }
