@@ -18,7 +18,7 @@ class HUDView: UIView {
     public var lineWidth: CGFloat = 2.0
     public var duration: TimeInterval = 1.5
     public var fillColor: UIColor = .clear
-    public var strokeColor: UIColor = .randomColor
+    public var strokeColor: UIColor = .red
     public var layerSpace: CGFloat = 10
     public var viewWidth: CGFloat = 70
     public var viewHeight: CGFloat = 70
