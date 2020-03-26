@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MBProgressHUD
 
 public extension UIView {
     
@@ -18,6 +19,58 @@ public extension UIView {
     /// - Parameter views: 视图数组
     @objc func addSubviews(_ views: [UIView]) {
         views.forEach { self.addSubview($0) }
+    }
+    
+    /// 显示HUD
+    @objc func showHUDView() {
+        let hud = MBProgressHUD.showAdded(to: self, animated: true)
+        hud.bezelView.color = .clear
+        hud.bezelView.style  = .solidColor
+        hud.mode = .customView
+        hud.customView = HUDView()
+    }
+    
+    /// 隐藏HUD
+    @objc func hideHUDView() {
+        var hide = MBProgressHUD.hide(for: self, animated: false)
+        while hide {
+            hide = MBProgressHUD.hide(for: self, animated: false)
+        }
+    }
+    
+    /// 显示HUD
+    /// - Parameter message: 内容信息
+    @objc func showHUDView(message: String) {
+        let hud = MBProgressHUD.showAdded(to: self, animated: true)
+        hud.offset = CGPoint(x: 0, y: -80)
+        hud.label.font = UIFont.systemFont(ofSize: 15)
+        hud.bezelView.color = UIColor.black.withAlphaComponent(0.65)
+        hud.bezelView.style = .solidColor
+        hud.contentColor = .white
+        hud.mode = .indeterminate
+        hud.label.text = message
+    }
+    
+    /// 显示吐丝
+    /// - Parameter tips: 吐丝内容
+    @objc func showTips(tipStr: String, offsetY: CGFloat = 0, completion: (()->Void)? = nil) {
+        self.hideHUDView()
+        if tipStr.isEmpty {
+            return
+        }
+        let hud = MBProgressHUD.showAdded(to: self, animated: true)
+        hud.isUserInteractionEnabled = false
+        hud.offset = CGPoint(x: 0, y: offsetY)
+        hud.detailsLabel.font = UIFont.systemFont(ofSize: 15)
+        hud.bezelView.layer.cornerRadius = 5
+        hud.bezelView.color = UIColor.black.withAlphaComponent(0.65)
+        hud.bezelView.style = .solidColor
+        hud.mode = .text
+        hud.detailsLabel.text = tipStr
+        DispatchQueue.main.asyncAfter(deadline: .now()+1.0) {
+            hud.hide(animated: true)
+            completion?()
+        };
     }
     
 }

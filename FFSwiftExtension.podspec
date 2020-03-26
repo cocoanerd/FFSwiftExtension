@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFSwiftExtension'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '这是一个总结性的FFSwiftExtension.'
 
 # This description is used to generate tags and improve search results.
@@ -32,16 +32,24 @@ Pod::Spec.new do |s|
   
   s.subspec 'UIKit' do |ss|
       ss.source_files = 'FFSwiftExtension/UI{Application,Button,Color,Label,Pasteboard,Screen,View,ViewController}+Ex.swift'
+      ss.dependency 'FFSwiftExtension/Views'
+      ss.dependency 'MBProgressHUD'
   end
   
   s.subspec 'Foundation' do |ss|
       ss.source_files = 'FFSwiftExtension/{String,AttributedString,CGFloat,Double,Int}+Ex.swift', 'FFSwiftExtension/UserDefaults.swift'
   end
+  
+  s.subspec 'Views' do |ss|
+      ss.source_files = 'FFSwiftExtension/HUDView.swift'
+  end
+  
   # s.resource_bundles = {
   #   'FFSwiftExtension' => ['FFSwiftExtension/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'Foundation'
+  s.resource = 'FFSwiftExtension/FFSwiftExtension.bundle'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

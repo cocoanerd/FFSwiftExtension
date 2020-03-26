@@ -68,6 +68,7 @@ class DetailViewController: UIViewController {
         case componentType.View.rawValue:
             view.addSubview(testView)
             testView.isHidden = false
+            view.showHUDView()
             break
 
         case componentType.UserDefaults.rawValue:
