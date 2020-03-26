@@ -14,35 +14,36 @@ let kHUDViewAnimationKeyStrokeKey = "HUDViewAnimationKeyStrokeKey.stroke"
 
 class HUDView: UIView {
     
-    var logoImage: UIImage = HUDViewLogoImage!
-    var lineWidth: CGFloat = 2.0
-    var duration: TimeInterval = 1.5
-    var fillColor: UIColor = .clear
-    var strokeColor: UIColor = .randomColor
-    var layerSpace: CGFloat = 10
-    var viewWidth: CGFloat = 70
-    var viewHeight: CGFloat = 70
-    var lineJoin: CAShapeLayerLineJoin = .bevel
-    var lineCap: CAShapeLayerLineCap = .round
-    var cornerRadius: CGFloat = 8
+    public var logoImage: UIImage = HUDViewLogoImage!
+    public var lineWidth: CGFloat = 2.0
+    public var duration: TimeInterval = 1.5
+    public var fillColor: UIColor = .clear
+    public var strokeColor: UIColor = .randomColor
+    public var layerSpace: CGFloat = 10
+    public var viewWidth: CGFloat = 70
+    public var viewHeight: CGFloat = 70
+    public var lineJoin: CAShapeLayerLineJoin = .bevel
+    public var lineCap: CAShapeLayerLineCap = .round
+    public var cornerRadius: CGFloat = 8
     
     init() {
-        super.init(frame: CGRect(x: 0, y: 0, width: viewWidth, height: viewHeight))
+        super.init(frame: .zero)
         buildUI()
     }
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        buildUI()
-    }
-    
+        
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    override var intrinsicContentSize: CGSize {
+        return CGSize(width: self.viewWidth, height: self.viewHeight)
     }
     
     
     // MARK: - BuildUI
     fileprivate func buildUI() {
+        self.backgroundColor = .white
+        self.layer.cornerRadius = cornerRadius
         self.addSubview(logoImageView)
         self.layer.addSublayer(roundLayer)
         addAnimatioinLayer()
@@ -61,24 +62,24 @@ class HUDView: UIView {
         let animation = CABasicAnimation()
         animation.keyPath = "transform.rotation"
         animation.duration = duration / 0.5
-        animation.fromValue = 0
-        animation.toValue = 2 * Double.pi
-        animation.repeatCount = Float(FP_INFINITE)
+        animation.fromValue = NSNumber(0)
+        animation.toValue = NSNumber(value: 2 * Double.pi)
+        animation.repeatCount = Float(CGFloat.greatestFiniteMagnitude)
         animation.isRemovedOnCompletion = false
         roundLayer.add(animation, forKey: kHUDViewAnimationKeyRotationKey)
         
         let headAnimation = CABasicAnimation()
         headAnimation.keyPath = "strokeStart"
         headAnimation.duration = duration / 2
-        headAnimation.fromValue = 0.0
-        headAnimation.toValue = 0.1
+        headAnimation.fromValue = NSNumber(0.0)
+        headAnimation.toValue = NSNumber(0.1)
         headAnimation.timingFunction = timingFunction
         
         let tailAnimation = CABasicAnimation()
         tailAnimation.keyPath = "strokeEnd"
         tailAnimation.duration = duration / 2
-        tailAnimation.fromValue = 0.0
-        tailAnimation.toValue = 1.0
+        tailAnimation.fromValue = NSNumber(0)
+        tailAnimation.toValue = NSNumber(1.0)
         tailAnimation.timingFunction = timingFunction
         
         let endHeadAnimation = CABasicAnimation()
@@ -86,7 +87,7 @@ class HUDView: UIView {
         endHeadAnimation.beginTime = duration - headAnimation.duration
         endHeadAnimation.duration = duration / 2
         endHeadAnimation.fromValue = headAnimation.toValue
-        endHeadAnimation.toValue = 1.0
+        endHeadAnimation.toValue = NSNumber(1.0)
         endHeadAnimation.timingFunction = timingFunction
         
         let endTailAnimation = CABasicAnimation()
@@ -94,13 +95,13 @@ class HUDView: UIView {
         endTailAnimation.beginTime = duration - tailAnimation.duration
         endTailAnimation.duration = duration / 2
         endTailAnimation.fromValue = tailAnimation.toValue
-        endTailAnimation.toValue = 1.0
+        endTailAnimation.toValue = NSNumber(1.0)
         endTailAnimation.timingFunction = timingFunction
         
         let animations = CAAnimationGroup()
         animations.duration = duration
         animations.animations = [headAnimation, tailAnimation, endHeadAnimation, endTailAnimation]
-        animations.repeatCount = Float(FP_INFINITE)
+        animations.repeatCount = Float(CGFloat.greatestFiniteMagnitude)
         animations.isRemovedOnCompletion = false
         animations.fillMode = .forwards
         roundLayer.add(animations, forKey: kHUDViewAnimationKeyStrokeKey)
@@ -109,17 +110,15 @@ class HUDView: UIView {
     
     // MARK: - LazyCode
     fileprivate lazy var logoImageView: UIImageView = {
-        let imageView = UIImageView()
-        imageView.image = self.logoImage
-        imageView.frame = CGRect(x: 0, y: 0, width: imageView.image?.size.width ?? 40, height: imageView.image?.size.height ?? 40)
-        imageView.center = self.center
+        let imageView = UIImageView.init(image: self.logoImage)
+        imageView.frame = CGRect(x: layerSpace, y: layerSpace, width: 50, height: 50)
         return imageView
     }()
     
     fileprivate lazy var roundLayer: CAShapeLayer = {
         let layer = CAShapeLayer()
         layer.contentsScale = UIScreen.main.scale
-        layer.frame = CGRect(x: layerSpace, y: layerSpace, width: viewWidth, height: viewHeight)
+        layer.frame = CGRect(x: layerSpace, y: layerSpace, width: viewWidth - 2*layerSpace, height: viewHeight - 2*layerSpace)
         layer.fillColor = fillColor.cgColor
         layer.lineJoin = lineJoin
         layer.strokeColor = strokeColor.cgColor

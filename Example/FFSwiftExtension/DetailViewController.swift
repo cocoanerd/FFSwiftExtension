@@ -69,6 +69,8 @@ class DetailViewController: UIViewController {
             view.addSubview(testView)
             testView.isHidden = false
             view.showHUDView()
+//            view.showTips(tipStr: "你看我在害怕什么")
+//            view.showHUDView(message: "加载中")
             break
 
         case componentType.UserDefaults.rawValue:

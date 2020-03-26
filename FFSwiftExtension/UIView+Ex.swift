@@ -22,12 +22,15 @@ public extension UIView {
     }
     
     /// 显示HUD
-    @objc func showHUDView() {
+    @objc func showHUDView(image: UIImage? = nil, lineColor: UIColor = .lightGray) {
         let hud = MBProgressHUD.showAdded(to: self, animated: true)
         hud.bezelView.color = .clear
         hud.bezelView.style  = .solidColor
         hud.mode = .customView
-        hud.customView = HUDView()
+        let hudView = HUDView()
+        hudView.logoImage = image ?? UIImage()
+        hudView.strokeColor = lineColor
+        hud.customView = hudView
     }
     
     /// 隐藏HUD
@@ -67,6 +70,7 @@ public extension UIView {
         hud.bezelView.style = .solidColor
         hud.mode = .text
         hud.detailsLabel.text = tipStr
+        hud.detailsLabel.textColor = .white
         DispatchQueue.main.asyncAfter(deadline: .now()+1.0) {
             hud.hide(animated: true)
             completion?()
