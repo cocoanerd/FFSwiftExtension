@@ -50,17 +50,11 @@ Pod::Spec.new do |s|
   
   s.subspec 'WKCrashSDK' do |ss|
       ss.source_files = 'FFSwiftExtension/WKCrashSDK/**/*.{h,m}'
-      ss.resource_bundles = {
-        'FFSwiftExtension' => ['FFSwiftExtension/WKCrashSDK/**/DeviceList.plist']
-      }
   end
-  
-  # s.resource_bundles = {
-  #   'FFSwiftExtension' => ['FFSwiftExtension/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.resource = 'FFSwiftExtension/FFSwiftExtension.bundle'
+  s.resource_bundles = {
+    'FFSwiftExtension' => ['FFSwiftExtension/Assets/DeviceList.plist']
+  }
   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

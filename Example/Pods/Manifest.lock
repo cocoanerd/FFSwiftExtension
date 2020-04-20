@@ -1,17 +1,17 @@
 PODS:
-  - FFSwiftExtension (0.0.2):
-    - FFSwiftExtension/Foundation (= 0.0.2)
-    - FFSwiftExtension/Safe (= 0.0.2)
-    - FFSwiftExtension/UIKit (= 0.0.2)
-    - FFSwiftExtension/Views (= 0.0.2)
-    - FFSwiftExtension/WKCrashSDK (= 0.0.2)
-  - FFSwiftExtension/Foundation (0.0.2)
-  - FFSwiftExtension/Safe (0.0.2)
-  - FFSwiftExtension/UIKit (0.0.2):
+  - FFSwiftExtension (0.0.3):
+    - FFSwiftExtension/Foundation (= 0.0.3)
+    - FFSwiftExtension/Safe (= 0.0.3)
+    - FFSwiftExtension/UIKit (= 0.0.3)
+    - FFSwiftExtension/Views (= 0.0.3)
+    - FFSwiftExtension/WKCrashSDK (= 0.0.3)
+  - FFSwiftExtension/Foundation (0.0.3)
+  - FFSwiftExtension/Safe (0.0.3)
+  - FFSwiftExtension/UIKit (0.0.3):
     - FFSwiftExtension/Views
     - MBProgressHUD
-  - FFSwiftExtension/Views (0.0.2)
-  - FFSwiftExtension/WKCrashSDK (0.0.2)
+  - FFSwiftExtension/Views (0.0.3)
+  - FFSwiftExtension/WKCrashSDK (0.0.3)
   - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFSwiftExtension: acc9838b21c2842144e54d180332839b5c8ee704
+  FFSwiftExtension: 9ddf670a15f86befce30492c5aafc405d293c542
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
 PODFILE CHECKSUM: 75607ad6f642a422576a159f50d80b02b7c18576

@@ -1,6 +1,6 @@
 {
   "name": "FFSwiftExtension",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "summary": "这是一个总结性的FFSwiftExtension.",
   "description": "构建初衷，希望可以不断总结一些扩展，便于开发",
   "homepage": "https://github.com/cocoanerd/FFSwiftExtension.git",
@@ -13,13 +13,17 @@
   },
   "source": {
     "git": "https://github.com/cocoanerd/FFSwiftExtension.git",
-    "tag": "0.0.2"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"
   },
   "swift_versions": "5.0",
-  "resources": "FFSwiftExtension/FFSwiftExtension.bundle",
+  "resource_bundles": {
+    "FFSwiftExtension": [
+      "FFSwiftExtension/Assets/DeviceList.plist"
+    ]
+  },
   "frameworks": [
     "UIKit",
     "Foundation"
@@ -54,12 +58,7 @@
     },
     {
       "name": "WKCrashSDK",
-      "source_files": "FFSwiftExtension/WKCrashSDK/**/*.{h,m}",
-      "resource_bundles": {
-        "FFSwiftExtension": [
-          "FFSwiftExtension/WKCrashSDK/**/DeviceList.plist"
-        ]
-      }
+      "source_files": "FFSwiftExtension/WKCrashSDK/**/*.{h,m}"
     }
   ],
   "swift_version": "5.0"
