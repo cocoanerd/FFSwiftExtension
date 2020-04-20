@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   end
 
   s.resource_bundles = {
-    'FFSwiftExtension' => ['FFSwiftExtension/Assets/DeviceList.plist']
+    'FFSwiftExtension' => ['FFSwiftExtension/Assets/*']
   }
   s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
