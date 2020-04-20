@@ -1,6 +1,6 @@
 {
   "name": "FFSwiftExtension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "这是一个总结性的FFSwiftExtension.",
   "description": "构建初衷，希望可以不断总结一些扩展，便于开发",
   "homepage": "https://github.com/cocoanerd/FFSwiftExtension.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/cocoanerd/FFSwiftExtension.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
@@ -45,8 +45,16 @@
       ]
     },
     {
+      "name": "Safe",
+      "source_files": "FFSwiftExtension/{Array,Dictionary}+Safe.swift"
+    },
+    {
       "name": "Views",
-      "source_files": "FFSwiftExtension/{HUDView}.swift"
+      "source_files": "FFSwiftExtension/HUDView.swift"
+    },
+    {
+      "name": "WKCrashSDK",
+      "source_files": "FFSwiftExtension/WKCrashSDK/**/*.{h,m}"
     }
   ],
   "swift_version": "5.0"

@@ -77,6 +77,36 @@ public extension UIView {
         };
     }
     
+    
+    /// 快速添加tap点击手势
+    @objc func addTapAction() {
+        let sel: Selector!
+        let name : String = NSStringFromClass(type(of: self))
+        let newname = (name as NSString).substring(to: 2)
+        if newname == "UI" {
+            sel = Selector(("tapAction"))
+        }else {
+            sel = Selector("\(newname.lowercased())Action")
+        }
+        addTapAction(sel)
+    }
+    
+    @objc func addTapAction(_ selector : Selector) {
+        var vc: NSObject = self
+        while true {
+            vc = (vc as! UIResponder).next!
+            if vc.isKind(of: UIViewController.self) {
+                addTapAction(vc, selector)
+                return
+            }
+        }
+    }
+    
+    @objc func addTapAction(_ target : Any ,_ selector : Selector) {
+        self.isUserInteractionEnabled = true
+        self.addGestureRecognizer(UITapGestureRecognizer(target: target, action: selector))
+    }
+    
 }
 
 // MARK: - 继承于UIView视图圆角设置

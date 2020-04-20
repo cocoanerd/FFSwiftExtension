@@ -1,13 +1,17 @@
 PODS:
-  - FFSwiftExtension (0.0.1):
-    - FFSwiftExtension/Foundation (= 0.0.1)
-    - FFSwiftExtension/UIKit (= 0.0.1)
-    - FFSwiftExtension/Views (= 0.0.1)
-  - FFSwiftExtension/Foundation (0.0.1)
-  - FFSwiftExtension/UIKit (0.0.1):
+  - FFSwiftExtension (0.0.2):
+    - FFSwiftExtension/Foundation (= 0.0.2)
+    - FFSwiftExtension/Safe (= 0.0.2)
+    - FFSwiftExtension/UIKit (= 0.0.2)
+    - FFSwiftExtension/Views (= 0.0.2)
+    - FFSwiftExtension/WKCrashSDK (= 0.0.2)
+  - FFSwiftExtension/Foundation (0.0.2)
+  - FFSwiftExtension/Safe (0.0.2)
+  - FFSwiftExtension/UIKit (0.0.2):
     - FFSwiftExtension/Views
     - MBProgressHUD
-  - FFSwiftExtension/Views (0.0.1)
+  - FFSwiftExtension/Views (0.0.2)
+  - FFSwiftExtension/WKCrashSDK (0.0.2)
   - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
@@ -22,9 +26,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFSwiftExtension: 4f55e58a911009cf3ae884e0ce5cd3191bafd242
+  FFSwiftExtension: 83d1f4eb7c090976a40832f7dc74def9bdcedafc
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
 PODFILE CHECKSUM: 75607ad6f642a422576a159f50d80b02b7c18576
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

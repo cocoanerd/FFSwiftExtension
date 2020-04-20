@@ -40,8 +40,16 @@ Pod::Spec.new do |s|
       ss.source_files = 'FFSwiftExtension/{String,AttributedString,CGFloat,Double,Int}+Ex.swift', 'FFSwiftExtension/UserDefaults.swift'
   end
   
+  s.subspec 'Safe' do |ss|
+      ss.source_files = 'FFSwiftExtension/{Array,Dictionary}+Safe.swift'
+  end
+  
   s.subspec 'Views' do |ss|
       ss.source_files = 'FFSwiftExtension/HUDView.swift'
+  end
+  
+  s.subspec 'WKCrashSDK' do |ss|
+      ss.source_files = 'FFSwiftExtension/WKCrashSDK/**/*.{h,m}'
   end
   
   # s.resource_bundles = {
