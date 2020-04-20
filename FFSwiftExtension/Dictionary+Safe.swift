@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension Dictionary {
+public extension Dictionary {
     /// 安全添加字典 dict.set("", nil)  后面这样如果添加nil会崩溃： dict["sex"] = s
     /// - Parameters:
     ///   - key: 键

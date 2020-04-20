@@ -7,87 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06243CBF611575EAA4530A688F88BE2E /* WKCrashReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D42343E202C0CD476C6B1741F430825 /* WKCrashReport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10B0A510F59A67149C263B0A6CEFC8A0 /* NSObject+MsgReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2154D3BB3AB45986B3B2316114487E9C /* NSObject+MsgReceiver.m */; };
-		126DA1003260FAE98457D85BB252724A /* WKZombieManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DCF5BCB0CDCFE843BCCFA7D96A8CB3 /* WKZombieManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		188FAF6A8E2F5FED7CC4038073AEF9EB /* FFSwiftExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E72DFA1F1A6DC43855385F885AF00D /* FFSwiftExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21066C45236D1E7E1A19398E3F819E32 /* NSSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2283D6AACD77FAD4613EA341A05E2561 /* NSSet+Safe.m */; };
-		238C58386439958732E1899D2FC32FE2 /* UIButton+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B4D217D763DBE692095C4234696CC8 /* UIButton+Ex.swift */; };
-		25FB1019146B7FBDC19C0384EE967318 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4993B272FDDAFA875111DE12E454D9 /* NSDictionary+Safe.m */; };
-		277189B876787386520FF359F6D2058B /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F39BD6D2818D346D870C833AE782502 /* NSMutableArray+Safe.m */; };
-		28B98E9E0353561F606E0C9C7E3FC9AD /* UIPasteboard+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D256D49014A180AD142BC97456F2D5 /* UIPasteboard+Ex.swift */; };
+		02F0551BED2762559DB3BD23F8CC1D35 /* WKZombieManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C37EA2E557A146F955D027C24AEF4E /* WKZombieManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08EDCFF48886EC320ED01F90BBDFBA3B /* UIPasteboard+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2440249A705BEB1ACFE6C57CAD0DEC05 /* UIPasteboard+Ex.swift */; };
+		092B43A30B8D96F96BF2FAACC650739E /* WKMsgReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 83613FA8ECD44B4943B19F823A88C095 /* WKMsgReceiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0973BAD4DBF629AF9B99ACD5B788FA63 /* FFSwiftExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 638972E864580D61B44195D1B226F78C /* FFSwiftExtension.bundle */; };
+		0A15B45DB9AA3EDACBE3A567CCC3E2EB /* NSMutableArray+SafeObjectAtIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF9B4192E553DF2A7041C4E56BE5398 /* NSMutableArray+SafeObjectAtIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E8D1F56C415C3A984A791D3516BD622 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6C23C32AF4368BB653EE86BF68AB5B /* NSDictionary+Safe.m */; };
+		1596BA29767F6BDADA53929F67051EB3 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19670B548DC2812E0436AD41B5E6607C /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33D73945124A0AD62C2D0FCA7F06B9F /* UserDefaults.swift */; };
+		21487B869C2D664F2AADE504C2741328 /* NSArray+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = B76A798080E525D547E35EE7F07956A7 /* NSArray+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2920A743224B1B8FA583A8D18654EAB8 /* WKCrashReport.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A2394939FE5CE2AB2352E8C5BB1E84 /* WKCrashReport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29262C055ED3B6DBA9192083064DEED4 /* NSNotificationCenter+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFD5D291F1C7533220F2A06A7B120C4 /* NSNotificationCenter+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BECE97DCAB1D6206E41B22AE5D304CB /* NSMutableDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = F72F75DBAA3F6C318B53843E4426EAF6 /* NSMutableDictionary+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C7373798EE2234671986F5BE3659AE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
-		2D5E524EFC11DEE3827C4370430D2B84 /* WKHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE2E4A08A948D1DFF984A1FCD3FEE55 /* WKHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E693F4A7BF396A283CE4E31CD6614DF /* WKCrashManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE8C24D024C581171025EECEC852BD /* WKCrashManager.m */; };
-		2F3A30D0B4148093675561DB992768CC /* FFSwiftExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0C72D27ECAAE7BE47778D01BDA9D7C /* FFSwiftExtension-dummy.m */; };
-		3042F91A09A6EC68B629A5738028995B /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0FDB3F2AD980C47C26B9CB7FF874D5 /* NSMutableDictionary+Safe.m */; };
-		328B88B1339E1B3C72EC8CA8D43B76CC /* NSString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D167F6E5F59995244FF6F234EE6735 /* NSString+Safe.m */; };
-		34F7D48ADBB1B8974BF1676F215C8AC1 /* CGFloat+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE44278848C23F9418670D57A3CC01C3 /* CGFloat+Ex.swift */; };
-		3AD7BCAFB74882EB014E4AF1B9E41DD1 /* NSMutableSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 739F490893C76B6C224280AC92114A4C /* NSMutableSet+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42C3907FB4AE5BB636A15B4CC54B8689 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D45356EFC18075A86251158ACFBE7A4 /* Array+Safe.swift */; };
-		4AE62D64AAF9DA544B04B751D767B14F /* NSTimer+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 013060FF009AB960B401774809BCAE9C /* NSTimer+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B38EF1E07A447287A113F5F090D7D33 /* Double+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B252D78FFE4EF1DCB857B7F6A70A20B4 /* Double+Ex.swift */; };
-		5346E973AA4D1107630B027498CECFBE /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 01051F9232D6C135CC264F0CA0DCEF1D /* NSArray+Safe.m */; };
-		543A0E75E433A07A7301A0715E7EF4CC /* NSObject+SafeKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D3DFF896D2E057008FABA0834952B0 /* NSObject+SafeKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56E7DCB7FB452AEEB7CE66F413D63C69 /* DeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892AA2441C926E67FC2E124FC25AF38 /* DeviceUtil.m */; };
+		2CB10B01D5434B9F02478641DA267802 /* NSNull+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F3C8CDAB505310567EA1956EECC20B /* NSNull+Safe.m */; };
+		2E0F959456A763B9BCCD212880FA0B28 /* WKCrashReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 071FF0216F9AE675D8401E8ECF5D8B84 /* WKCrashReport.m */; };
+		3060C1FBD8113406309C90D5787324B6 /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FED55E6C64C60CEF8F293DECDC037 /* UIColor+Ex.swift */; };
+		3265DA172B9346756729F940B4BA2A22 /* WKHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 778A7D8F2C5F9F2BB2835C52F3C7C161 /* WKHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35C38FE64FB537D1A0D208AE3A2338E4 /* Dictionary+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138D7FEB217F3AE97799B2E3F46ACEE /* Dictionary+Safe.swift */; };
+		382253059731646C5E6C83A67FC3E644 /* NSMutableSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4DE93F9F4B9B247B108C8E34024BE6 /* NSMutableSet+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B1074FCB3A0C3CE8FADFE774E87F30A /* NSString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B776EFEE079FF54DDAC3BD420C54F4C /* NSString+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F16BCF2B98E2EFE3362DF8D40843A5D /* NSObject+WKZombie.h in Headers */ = {isa = PBXBuildFile; fileRef = E050070BA733186874DFD03B2966A2E9 /* NSObject+WKZombie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43EB3C771CF8A38044CCFA2755ECAE91 /* NSDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8F2ABFB68B15135D7B4585588D0210 /* NSDictionary+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44CB8AD633AB0E0712B751A7125FF471 /* UIScreen+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8516C27BF28FDA49A1CCE6E88FF1E2B /* UIScreen+Ex.swift */; };
+		48C1CDB15E8088EE796972A5688B67CD /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
+		4ADDB4E60F93D08A6E203C13B78625EA /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6A0BE0130297FA50D2AD4B22987574 /* NSArray+Safe.m */; };
+		4C5B0C8901A5EBEDB105F732B38ABC82 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18552B002AE9CE23CEEF7F340FFED8E9 /* String+Ex.swift */; };
+		4CF60CA35BE798D424E39EA15A552913 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
+		4E04508712B5002A729C5977A7E05E26 /* NSMutableArray+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 51FFBE5AFF6A700AD025B2E9592402E1 /* NSMutableArray+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58E164B78E9F265CB957153781C7C7A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261142ECD08AA96D02F8D4C1978B9F40 /* CoreGraphics.framework */; };
+		5ACE4CA6E905F3E2452DC463395F498C /* NSMutableString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E5320FCFB24707ECF310C0A96D8823 /* NSMutableString+Safe.m */; };
 		5C74E2E45B7C7EF5088B25034482D8F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
-		699EBB979766BB3928B505A149987BF4 /* NSMutableArray+SafeObjectAtIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9908D839D254DA62E1EA3ABB22AAD6 /* NSMutableArray+SafeObjectAtIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78CD653A31C88DD0582BE6817AD9025B /* NSObject+SafeKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 647E03B447D9672E16743A616411579B /* NSObject+SafeKVO.m */; };
-		838E5D280D20B697060FAB8674F2C387 /* NSDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = CED7035EB948F82F923CFA8242244259 /* NSDictionary+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		839843AC54DA3F5D9AB90024D4ECEF4D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE8E83538B2326B7D57D7C3BC7199EA /* QuartzCore.framework */; };
-		85CF7D08B6E0F68DC79C77F25D436130 /* NSNull+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF7C8892335D51E037F679709BF3310 /* NSNull+Safe.m */; };
-		88472013CBCBCD7B7856FF96046F0393 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
-		897E64125CFB993F55D8D253A505647A /* NSObject+WKZombie.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA8C18BD565094A0E95CB99808184D5 /* NSObject+WKZombie.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BCEB089F43EDAFD83F358F6E8B10B84 /* NSMutableString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = FC48DCA1C029D2E20438CCF06EE5B795 /* NSMutableString+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C698491ADB8374B53ACD2CFE99944C1 /* UIApplication+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08653A184B2FACB909DCFBAEDAF7D77A /* UIApplication+Ex.swift */; };
-		8CCF8325A763F44F9E0D7089BD0A0F65 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97A06075499A50A24FE1EB038682CE79 /* WKMsgReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DDF6D8F51678CF0FC66F3362834986 /* WKMsgReceiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98CF60C82A20C1E40188E090D766A085 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C226913D66F8E6F2B973AD9DA7A77 /* String+Ex.swift */; };
-		A058CFF394A76699402C71FB1F399418 /* NSMutableArray+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 747CEBF645333AF9EC2DE515460B9024 /* NSMutableArray+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1AE6F6927BD9C75F122A6AC6D1BB92A /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */; };
-		A453FC368CCB132CC14223A67C908163 /* WKSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0890D76794603F3570BD64C5E7AE481E /* WKSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		614AA473BDF053B6E9FBD7BA5F8A162A /* NSTimer+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = F82BD6623FA84AB3DE07B7F49ADF9BFD /* NSTimer+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6547E5BA6226C7DB67FAA74BDF266D53 /* NSString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 087BAC693F92790C415BACEF31F99360 /* NSString+Safe.m */; };
+		65EA0117D5186B1BF20313027CC3B04C /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C5CADD07E2689724C6AF7ECEED1B9 /* UIView+Ex.swift */; };
+		6760EB8C816F40124CA79849048FCD03 /* DeviceUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD8BD4D4257BCD8955A248C1BF4DC9E /* DeviceUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		746E0E592D6744754EF0EBAE7CDBCB7C /* NSObject+MsgReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DA88E7A4D9F601C1F91CB7FDC9CE3E /* NSObject+MsgReceiver.m */; };
+		7B2CDB11B052DAA58945DD396228C583 /* NSNotificationCenter+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = A71855711886B513AC5AB70AC16BAA43 /* NSNotificationCenter+Safe.m */; };
+		82E98CD3B79BF9B2C72EEC916D8F4DC6 /* WKCrashManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 194497C93F35B57C20BB4773B38C7EA7 /* WKCrashManager.m */; };
+		8483D078E2B732D66024AE5FD0E700C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2C9EBA77371B18B62DF65996D4A60 /* UIKit.framework */; };
+		871FE3137B429E3741764B4771C8554E /* NSMutableSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 17339694CF0316F451683D87D3A861F1 /* NSMutableSet+Safe.m */; };
+		873A11A0DAEF42F2F391E19BEAEBCE39 /* NSMutableArray+SafeObjectAtIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4996826D05397C3733C63D3F89421E9A /* NSMutableArray+SafeObjectAtIndex.m */; };
+		881F3C7B91832CF3B48A1C918F0CEAAA /* Int+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E30A1FE6FA108E738BA76D6866B16F1 /* Int+Ex.swift */; };
+		88BD47D0926D396574B1C434A3C27335 /* WKCrashManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CD4F8463DA574D1D15F5F57D97D935 /* WKCrashManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C77F370750D904AECAAEB6B532DCEF7 /* NSSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 1722AB6AD5CAF0EF4E3CA51A37F68DC6 /* NSSet+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		902642786CF5D1CD70A3E626019F387E /* CGFloat+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5D3AFD8138DFED4E4D1A091EEFAEA5 /* CGFloat+Ex.swift */; };
+		94F8319C23664E479A11345DF2184F95 /* WKMsgReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 82594BC9B48A1E0117A99E30D3E040F9 /* WKMsgReceiver.m */; };
+		9E198E7C97933DB880FC7B30B39C1D30 /* FFSwiftExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD42BC380699DE7046F93BC1CD1155 /* FFSwiftExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1571B90DF86A9CE1B93C8DC93377354 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
 		A56BC4459E09130594BB77556AB9C418 /* Pods-FFSwiftExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3675C300D3DEB595B847C45F60AA37 /* Pods-FFSwiftExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5E1BC3AE120ED9D8CC0AB51EBFC5CD3 /* NSMutableSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A146D2AD7660A144225B06BDCB66BC /* NSMutableSet+Safe.m */; };
-		A8216CC89AE6F497FA3A3866D647BE51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
-		A989EC69670E73C081A13B6CD4C6AAB4 /* NSArray+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 047D558CD0BD3DBC102FD0156ACA3626 /* NSArray+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA023AB23278D2E7062ED42368925DCE /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EDB33D512EA18CC2FC4AA3C7C281EE /* UserDefaults.swift */; };
-		B0860A9619ED06E40BC63C1FE50D5682 /* Dictionary+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00346CC2406A6265D74A5B4F19E5210D /* Dictionary+Safe.swift */; };
-		B08D4FDA2A3BF86D4E5B72DFD96B80AD /* NSMutableString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 552E7F09971CE11E57A9C4F86F34C84F /* NSMutableString+Safe.m */; };
-		B0A6F9E5272366B367AF785048E1D359 /* WKCrashManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C26372BAE8F90C8CBFD555516282699 /* WKCrashManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B15F29A51FD62D77EBE1FF691F049F1D /* WKMsgReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 496EE52FCDBD42B4B18AF809C9ED30EC /* WKMsgReceiver.m */; };
+		A5B822C5C5253D91CE73F88ECBCF0CD1 /* UIButton+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C729D99C013073D29757BF6063D61A /* UIButton+Ex.swift */; };
+		A914A96D6710D0AC8EF341369FA99EC1 /* NSObject+SafeKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BECE95A84C8E44A7B98D1CF184FFD59 /* NSObject+SafeKVO.m */; };
+		B05CD57192C54F120E7020215CD38053 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */; };
 		B50CFB4814A9E9ECF05D82BE5E93DED4 /* Pods-FFSwiftExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F940219C158DBD6F47BFD3D99C38B58 /* Pods-FFSwiftExtension_Example-dummy.m */; };
-		B5C7CFC96572348FEA6131F6284FC688 /* DeviceUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB1E8C40D59D3961A02AE30EEF02E78 /* DeviceUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6F7D6F8D01F94A1E4E54C13795D9233 /* FFSwiftExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCDF01E0AC58896901CED323E9ED8400 /* FFSwiftExtension.bundle */; };
-		B8E1395AB3A17F52F1FEFB9BE76AFF4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261142ECD08AA96D02F8D4C1978B9F40 /* CoreGraphics.framework */; };
-		BA190CE6956E519648B3A2DC569A99EC /* WKZombieManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C32C43CBE0AF9E6E5B79054681AFCC91 /* WKZombieManager.m */; };
-		BA4BABAEE4BD5CFE114D755C8EE5899E /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B4D332907FA848AD6E2438884ED5E7 /* UIColor+Ex.swift */; };
-		BD7C7A50F211728F2D3BA0079B8A4C9F /* UIScreen+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191DE3D5AEC8DDBDBAB17F199CB7C9BE /* UIScreen+Ex.swift */; };
-		C0E4CAC82D97421868BEC6BA3B3FCA6D /* NSSet+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 6264C3942A18AD94165F5F8EB4106EED /* NSSet+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C56D9C19DC9365912F669CE1405E18F0 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C73238A98868C623453AA469EF6DB15B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
-		C7DA9EA353DDDE696B8755703153899A /* WKCrashReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1EBEDB355CB5B7F235A3B0D344DB9 /* WKCrashReport.m */; };
-		CB6D633EAFC8E0C441A8EE21789A8339 /* UILabel+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA69D406869351BF16555FD74238E8 /* UILabel+Ex.swift */; };
-		CD71D877E82AF33D90EC4E932F173874 /* NSNotificationCenter+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F24F2A8B2CB140CCBA8F09E0442485E /* NSNotificationCenter+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7CA48FA038407018601E36A39C4E7B9 /* UIViewController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F9CBFF84938B7F4EED9ABF64E80C14 /* UIViewController+Ex.swift */; };
+		BAF02BA5BC656A043F15A2214C6938B5 /* FFSwiftExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C16C4430239152E20755238F839EA8 /* FFSwiftExtension-dummy.m */; };
+		BB537AA19C4765C3D5B4E21CEBA95839 /* WKSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FC20A4706F3F87A2A4F8FB4407D733 /* WKSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCCEB0C2D84C0A86D9904DC7A74085CB /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5405EC27898E9580C32D66A03B31C668 /* Array+Safe.swift */; };
 		D212434BE31263DA30A0D66A1DAF6B99 /* Pods-FFSwiftExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FE601971BE290EC56F16806C59DEBE /* Pods-FFSwiftExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB8D5FE3C54DD90D00FF2827DCF44787 /* Int+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E618223C2184285450A796C922C2C77 /* Int+Ex.swift */; };
-		DC78409865399DD743B84EB34A828E88 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
-		DDEA7FE2D30E454D08FD6929F5F7F0D8 /* NSObject+MsgReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE9107D2A43A6923C9A4EB63E749D3E /* NSObject+MsgReceiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEBCC29131E0BBFDEB06AA320B319A67 /* NSNotificationCenter+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1318D1AA0E93004366E15F0961C4B1A2 /* NSNotificationCenter+Safe.m */; };
-		E1E912C091644A2C4DFC38A9DB516B6A /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695841189CAD66E379F1171DDC812D3A /* HUDView.swift */; };
-		E67AECBEE0AD0DFE4F61644DDC9F62E3 /* NSTimer+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9E0DC1A347BD4298D0D7B38FFAB862 /* NSTimer+Safe.m */; };
+		D314EBEC8E2C5CF83463DD264BA2290B /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D55993B9480A5C2A0467D8E192D42418 /* NSObject+MsgReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = C58D75E768730284E84E3C81D0BC42CE /* NSObject+MsgReceiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA895DACCF8F070C83017F92336CB405 /* FFSwiftExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0BEB212AC7B6F6C673C5CFB6FDA9D399 /* FFSwiftExtension.bundle */; };
+		DBFE98DAFCC30B52ED2AFC1C69B03172 /* DeviceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0CB50107FA1065F1A34794DF90CDD60 /* DeviceList.plist */; };
+		DC4D550E041F74A33BC0F7394A6C86D0 /* NSNull+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = A1FE9B920D0463428F0FBB18EA6774E1 /* NSNull+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC531D38367A61DAB59ADE7E3818958C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE8E83538B2326B7D57D7C3BC7199EA /* QuartzCore.framework */; };
+		E3D6D9E1215CDD0A4BFF796ADCDDD5A9 /* WKZombieManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E77489ADA3925F694156D652ADE6D /* WKZombieManager.m */; };
+		E4D864E8A6B8F0AF2DCF53AEF39F41A0 /* NSSet+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = CA362689403DC556D90E7FAC8AB9F45C /* NSSet+Safe.m */; };
 		E68748A813B222C6FEA4386A697F51B3 /* Pods-FFSwiftExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3FEB652C36489A6A9E7B0F326E0390 /* Pods-FFSwiftExtension_Tests-dummy.m */; };
-		E7445CC6BDC2EB147F37FB82ACA5D87A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2C9EBA77371B18B62DF65996D4A60 /* UIKit.framework */; };
-		E8A775420F29E686C45489923D8B9D28 /* UIView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624FD7AB8FBF1AD369F0A4238ACB6C4A /* UIView+Ex.swift */; };
-		EA8C40F6CC982BB45F1D472D3A309BAE /* AttributedString+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D6B0609880D94B8CF7037677D39E9 /* AttributedString+Ex.swift */; };
-		F5312059A97B5C61328C1E7CC48CE882 /* NSMutableDictionary+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A022B116C2C8254B8F76EBB918BB70 /* NSMutableDictionary+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F69F38BB7033810F385F58BECC81B7A9 /* NSString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F785C2D93B766B11F23460289B854C /* NSString+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC92343A3F1E3B7909C35C06C878D0C2 /* NSNull+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8DD1CA20546E06FA19A83198E8FC3C /* NSNull+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE2635698F94DDBDD9F8930A1BC5C870 /* NSMutableArray+SafeObjectAtIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B093E19C2571A47F1D22E8133898A5E /* NSMutableArray+SafeObjectAtIndex.m */; };
-		FEFCB387176D5FE3F8101CA746E10453 /* UIViewController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87BA0436E659A7594B82110B8AAB00 /* UIViewController+Ex.swift */; };
+		E843AEE89DFDA38F67BC990B18ED9C3C /* DeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0098124BFD40D784BB123972B6DE6A28 /* DeviceUtil.m */; };
+		E95101DA413CBE490BB844D475242F4D /* NSObject+SafeKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = F71890C6952838035E7A51E44C90F28F /* NSObject+SafeKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9ECFFC1AAB39D5FC16C509DC917E38A /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E748EB2BAD163AA8B345DAC274147 /* NSMutableDictionary+Safe.m */; };
+		EC97BECC01D36DE0F3457C4CE7419EFB /* AttributedString+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391AEC3E45F140BF9187119A08F2E08 /* AttributedString+Ex.swift */; };
+		ED735E42E1F81DB31FB1A0A003ECFA1F /* NSTimer+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = C37D30D92F3AAC026859E5F1115E4EE0 /* NSTimer+Safe.m */; };
+		EEB6114C2E494918D52C513B6A711A17 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36689CADC6B0EC424CC56EC790468C94 /* HUDView.swift */; };
+		F0BE0122D8410415CE79971AD972DDD8 /* NSMutableString+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C8BC42F89E6CACB8C5CEF1562C5C5F /* NSMutableString+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4A0C8F09053CEFE98310741A6CD769C /* UILabel+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C22B32A40AA7E9D8044DF38DAF6721 /* UILabel+Ex.swift */; };
+		F5F078B04A2F9720510A5FA80B31783D /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5089746DC451BBADF6822943009706E4 /* NSMutableArray+Safe.m */; };
+		F9DEB803C9A80ABF1F49500A178CA47E /* UIApplication+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3944CEA1DCDEE82F9B638AB70F35869E /* UIApplication+Ex.swift */; };
+		FAB7801D72ADC55E046B33F023F6E725 /* Double+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEC51EF9022112B250A11741FC24BEC /* Double+Ex.swift */; };
+		FE4F3C8D2ED69E526C0A034446842CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		18833B7D19BD5324171AD38C44ED8B8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		2DA0CA03D9D849376DB33362508BC896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBA4AD4A99AC056BEBA4A358414BFDA2;
+			remoteInfo = "FFSwiftExtension-FFSwiftExtension";
+		};
+		8802B9FE518CDD4E4B6DFD74E0624DBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -108,141 +124,137 @@
 			remoteGlobalIDString = 5C230CE5EFC9BDEB13762638E3E41FE7;
 			remoteInfo = FFSwiftExtension;
 		};
-		D92E201C9BFF147C06C6ACC2068C7879 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
-			remoteInfo = MBProgressHUD;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00346CC2406A6265D74A5B4F19E5210D /* Dictionary+Safe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+Safe.swift"; path = "FFSwiftExtension/Dictionary+Safe.swift"; sourceTree = "<group>"; };
-		01051F9232D6C135CC264F0CA0DCEF1D /* NSArray+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
-		013060FF009AB960B401774809BCAE9C /* NSTimer+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Safe.h"; sourceTree = "<group>"; };
+		0098124BFD40D784BB123972B6DE6A28 /* DeviceUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeviceUtil.m; sourceTree = "<group>"; };
+		00E5320FCFB24707ECF310C0A96D8823 /* NSMutableString+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Safe.m"; sourceTree = "<group>"; };
 		03DF972A9F1C445D40759E0CE2033248 /* Pods-FFSwiftExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFSwiftExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
-		047D558CD0BD3DBC102FD0156ACA3626 /* NSArray+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
-		08653A184B2FACB909DCFBAEDAF7D77A /* UIApplication+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Ex.swift"; path = "FFSwiftExtension/UIApplication+Ex.swift"; sourceTree = "<group>"; };
-		0890D76794603F3570BD64C5E7AE481E /* WKSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKSwizzle.h; path = FFSwiftExtension/WKCrashSDK/WKSwizzle.h; sourceTree = "<group>"; };
-		09F0A8D17E48D478E5820C3939C097D8 /* FFSwiftExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFSwiftExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		071FF0216F9AE675D8401E8ECF5D8B84 /* WKCrashReport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WKCrashReport.m; sourceTree = "<group>"; };
+		087BAC693F92790C415BACEF31F99360 /* NSString+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Safe.m"; sourceTree = "<group>"; };
 		09FC87D874EE2CB4E1DABFBEF44C1BDF /* Pods-FFSwiftExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFSwiftExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0B3FEB652C36489A6A9E7B0F326E0390 /* Pods-FFSwiftExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFSwiftExtension_Tests-dummy.m"; sourceTree = "<group>"; };
-		0F24F2A8B2CB140CCBA8F09E0442485E /* NSNotificationCenter+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+Safe.h"; sourceTree = "<group>"; };
+		0BEB212AC7B6F6C673C5CFB6FDA9D399 /* FFSwiftExtension.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FFSwiftExtension.bundle; path = FFSwiftExtension/FFSwiftExtension.bundle; sourceTree = "<group>"; };
+		0E30A1FE6FA108E738BA76D6866B16F1 /* Int+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Ex.swift"; path = "FFSwiftExtension/Int+Ex.swift"; sourceTree = "<group>"; };
 		0F2B1A6843994F87BDC2390936986373 /* Pods-FFSwiftExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFSwiftExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		10B6F7F9A4A233D5B6167F8A6EDAB7BD /* Pods-FFSwiftExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFSwiftExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1318D1AA0E93004366E15F0961C4B1A2 /* NSNotificationCenter+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+Safe.m"; sourceTree = "<group>"; };
-		13B4D217D763DBE692095C4234696CC8 /* UIButton+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Ex.swift"; path = "FFSwiftExtension/UIButton+Ex.swift"; sourceTree = "<group>"; };
-		191DE3D5AEC8DDBDBAB17F199CB7C9BE /* UIScreen+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+Ex.swift"; path = "FFSwiftExtension/UIScreen+Ex.swift"; sourceTree = "<group>"; };
-		1D42343E202C0CD476C6B1741F430825 /* WKCrashReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKCrashReport.h; sourceTree = "<group>"; };
+		11C729D99C013073D29757BF6063D61A /* UIButton+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Ex.swift"; path = "FFSwiftExtension/UIButton+Ex.swift"; sourceTree = "<group>"; };
+		1722AB6AD5CAF0EF4E3CA51A37F68DC6 /* NSSet+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSet+Safe.h"; sourceTree = "<group>"; };
+		17339694CF0316F451683D87D3A861F1 /* NSMutableSet+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+Safe.m"; sourceTree = "<group>"; };
+		18552B002AE9CE23CEEF7F340FFED8E9 /* String+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Ex.swift"; path = "FFSwiftExtension/String+Ex.swift"; sourceTree = "<group>"; };
+		194497C93F35B57C20BB4773B38C7EA7 /* WKCrashManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCrashManager.m; path = FFSwiftExtension/WKCrashSDK/WKCrashManager.m; sourceTree = "<group>"; };
+		1A0FED55E6C64C60CEF8F293DECDC037 /* UIColor+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Ex.swift"; path = "FFSwiftExtension/UIColor+Ex.swift"; sourceTree = "<group>"; };
 		1E6A8A70D8F58A6B407BDB07F5DAAEFB /* Pods-FFSwiftExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFSwiftExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1F39BD6D2818D346D870C833AE782502 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
-		20EDB33D512EA18CC2FC4AA3C7C281EE /* UserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaults.swift; path = FFSwiftExtension/UserDefaults.swift; sourceTree = "<group>"; };
-		2154D3BB3AB45986B3B2316114487E9C /* NSObject+MsgReceiver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MsgReceiver.m"; sourceTree = "<group>"; };
-		2283D6AACD77FAD4613EA341A05E2561 /* NSSet+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Safe.m"; sourceTree = "<group>"; };
-		2438629E06B2B178F54BE8BE36FB387C /* FFSwiftExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFSwiftExtension.debug.xcconfig; sourceTree = "<group>"; };
+		2391AEC3E45F140BF9187119A08F2E08 /* AttributedString+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AttributedString+Ex.swift"; path = "FFSwiftExtension/AttributedString+Ex.swift"; sourceTree = "<group>"; };
+		2440249A705BEB1ACFE6C57CAD0DEC05 /* UIPasteboard+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPasteboard+Ex.swift"; path = "FFSwiftExtension/UIPasteboard+Ex.swift"; sourceTree = "<group>"; };
 		261142ECD08AA96D02F8D4C1978B9F40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		2C0C72D27ECAAE7BE47778D01BDA9D7C /* FFSwiftExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFSwiftExtension-dummy.m"; sourceTree = "<group>"; };
-		2DE2E4A08A948D1DFF984A1FCD3FEE55 /* WKHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKHeader.h; path = FFSwiftExtension/WKCrashSDK/WKHeader.h; sourceTree = "<group>"; };
-		2E618223C2184285450A796C922C2C77 /* Int+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Ex.swift"; path = "FFSwiftExtension/Int+Ex.swift"; sourceTree = "<group>"; };
-		2FFE8C24D024C581171025EECEC852BD /* WKCrashManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKCrashManager.m; path = FFSwiftExtension/WKCrashSDK/WKCrashManager.m; sourceTree = "<group>"; };
+		2B4DE93F9F4B9B247B108C8E34024BE6 /* NSMutableSet+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+Safe.h"; sourceTree = "<group>"; };
+		2BECE95A84C8E44A7B98D1CF184FFD59 /* NSObject+SafeKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeKVO.m"; sourceTree = "<group>"; };
+		2C6E77489ADA3925F694156D652ADE6D /* WKZombieManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WKZombieManager.m; sourceTree = "<group>"; };
+		32C22B32A40AA7E9D8044DF38DAF6721 /* UILabel+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Ex.swift"; path = "FFSwiftExtension/UILabel+Ex.swift"; sourceTree = "<group>"; };
+		32C37EA2E557A146F955D027C24AEF4E /* WKZombieManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKZombieManager.h; sourceTree = "<group>"; };
 		338D714419F97A94CD60888B4C925D9A /* Pods-FFSwiftExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFSwiftExtension_Example.modulemap"; sourceTree = "<group>"; };
+		36689CADC6B0EC424CC56EC790468C94 /* HUDView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUDView.swift; path = FFSwiftExtension/HUDView.swift; sourceTree = "<group>"; };
+		3944CEA1DCDEE82F9B638AB70F35869E /* UIApplication+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Ex.swift"; path = "FFSwiftExtension/UIApplication+Ex.swift"; sourceTree = "<group>"; };
 		3A60E375479F7D999AD2383624477F80 /* Pods-FFSwiftExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFSwiftExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D9908D839D254DA62E1EA3ABB22AAD6 /* NSMutableArray+SafeObjectAtIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SafeObjectAtIndex.h"; sourceTree = "<group>"; };
-		3EB1EBEDB355CB5B7F235A3B0D344DB9 /* WKCrashReport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WKCrashReport.m; sourceTree = "<group>"; };
-		3F6C226913D66F8E6F2B973AD9DA7A77 /* String+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Ex.swift"; path = "FFSwiftExtension/String+Ex.swift"; sourceTree = "<group>"; };
-		496EE52FCDBD42B4B18AF809C9ED30EC /* WKMsgReceiver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WKMsgReceiver.m; sourceTree = "<group>"; };
+		3AD8BD4D4257BCD8955A248C1BF4DC9E /* DeviceUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeviceUtil.h; sourceTree = "<group>"; };
+		3D7E748EB2BAD163AA8B345DAC274147 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
+		3F7953FDA4F38D27D9168E42AD36C25E /* FFSwiftExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFSwiftExtension.debug.xcconfig; sourceTree = "<group>"; };
+		4138D7FEB217F3AE97799B2E3F46ACEE /* Dictionary+Safe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dictionary+Safe.swift"; path = "FFSwiftExtension/Dictionary+Safe.swift"; sourceTree = "<group>"; };
+		418A74E00222BCF2D7F0C14EE7BB94B3 /* ResourceBundle-FFSwiftExtension-FFSwiftExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FFSwiftExtension-FFSwiftExtension-Info.plist"; sourceTree = "<group>"; };
+		4996826D05397C3733C63D3F89421E9A /* NSMutableArray+SafeObjectAtIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SafeObjectAtIndex.m"; sourceTree = "<group>"; };
 		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		4F940219C158DBD6F47BFD3D99C38B58 /* Pods-FFSwiftExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFSwiftExtension_Example-dummy.m"; sourceTree = "<group>"; };
+		5089746DC451BBADF6822943009706E4 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		51FFBE5AFF6A700AD025B2E9592402E1 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
 		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		538DC770B4CDE60D8B9A6012514F1582 /* Pods-FFSwiftExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFSwiftExtension_Tests-Info.plist"; sourceTree = "<group>"; };
-		552E7F09971CE11E57A9C4F86F34C84F /* NSMutableString+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Safe.m"; sourceTree = "<group>"; };
-		56F785C2D93B766B11F23460289B854C /* NSString+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Safe.h"; sourceTree = "<group>"; };
-		57D256D49014A180AD142BC97456F2D5 /* UIPasteboard+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPasteboard+Ex.swift"; path = "FFSwiftExtension/UIPasteboard+Ex.swift"; sourceTree = "<group>"; };
-		5892AA2441C926E67FC2E124FC25AF38 /* DeviceUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeviceUtil.m; sourceTree = "<group>"; };
-		5B093E19C2571A47F1D22E8133898A5E /* NSMutableArray+SafeObjectAtIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SafeObjectAtIndex.m"; sourceTree = "<group>"; };
+		5405EC27898E9580C32D66A03B31C668 /* Array+Safe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Safe.swift"; path = "FFSwiftExtension/Array+Safe.swift"; sourceTree = "<group>"; };
 		5D4FC2D3DDA53FF1F38212A9586B7690 /* Pods-FFSwiftExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFSwiftExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5DF7C8892335D51E037F679709BF3310 /* NSNull+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Safe.m"; sourceTree = "<group>"; };
+		5DF9B4192E553DF2A7041C4E56BE5398 /* NSMutableArray+SafeObjectAtIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SafeObjectAtIndex.h"; sourceTree = "<group>"; };
 		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		624FD7AB8FBF1AD369F0A4238ACB6C4A /* UIView+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Ex.swift"; path = "FFSwiftExtension/UIView+Ex.swift"; sourceTree = "<group>"; };
-		6264C3942A18AD94165F5F8EB4106EED /* NSSet+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSet+Safe.h"; sourceTree = "<group>"; };
-		635D6B0609880D94B8CF7037677D39E9 /* AttributedString+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AttributedString+Ex.swift"; path = "FFSwiftExtension/AttributedString+Ex.swift"; sourceTree = "<group>"; };
-		647E03B447D9672E16743A616411579B /* NSObject+SafeKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeKVO.m"; sourceTree = "<group>"; };
+		638972E864580D61B44195D1B226F78C /* FFSwiftExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FFSwiftExtension.bundle; path = "FFSwiftExtension-FFSwiftExtension.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FC20A4706F3F87A2A4F8FB4407D733 /* WKSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKSwizzle.h; path = FFSwiftExtension/WKCrashSDK/WKSwizzle.h; sourceTree = "<group>"; };
 		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		67FCB00F96A7AED06DBBD91629E25D03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		695841189CAD66E379F1171DDC812D3A /* HUDView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUDView.swift; path = FFSwiftExtension/HUDView.swift; sourceTree = "<group>"; };
-		6C8DD1CA20546E06FA19A83198E8FC3C /* NSNull+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNull+Safe.h"; sourceTree = "<group>"; };
 		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		739F490893C76B6C224280AC92114A4C /* NSMutableSet+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+Safe.h"; sourceTree = "<group>"; };
-		73A146D2AD7660A144225B06BDCB66BC /* NSMutableSet+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+Safe.m"; sourceTree = "<group>"; };
-		747CEBF645333AF9EC2DE515460B9024 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
-		79B4D332907FA848AD6E2438884ED5E7 /* UIColor+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Ex.swift"; path = "FFSwiftExtension/UIColor+Ex.swift"; sourceTree = "<group>"; };
-		79D167F6E5F59995244FF6F234EE6735 /* NSString+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Safe.m"; sourceTree = "<group>"; };
-		7C26372BAE8F90C8CBFD555516282699 /* WKCrashManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCrashManager.h; path = FFSwiftExtension/WKCrashSDK/WKCrashManager.h; sourceTree = "<group>"; };
-		7CE9107D2A43A6923C9A4EB63E749D3E /* NSObject+MsgReceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+MsgReceiver.h"; sourceTree = "<group>"; };
+		776ADC12059BCF5D0CE2E2DFEB4A11B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		778A7D8F2C5F9F2BB2835C52F3C7C161 /* WKHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKHeader.h; path = FFSwiftExtension/WKCrashSDK/WKHeader.h; sourceTree = "<group>"; };
+		7BB2B3A685ECDD5FA7E7D77EA779A97A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8006BC20218EC5EF2664027C5D1601E8 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82DDF6D8F51678CF0FC66F3362834986 /* WKMsgReceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKMsgReceiver.h; sourceTree = "<group>"; };
-		8B0FDB3F2AD980C47C26B9CB7FF874D5 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
+		82594BC9B48A1E0117A99E30D3E040F9 /* WKMsgReceiver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WKMsgReceiver.m; sourceTree = "<group>"; };
+		83613FA8ECD44B4943B19F823A88C095 /* WKMsgReceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKMsgReceiver.h; sourceTree = "<group>"; };
+		89A2394939FE5CE2AB2352E8C5BB1E84 /* WKCrashReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKCrashReport.h; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D45356EFC18075A86251158ACFBE7A4 /* Array+Safe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Safe.swift"; path = "FFSwiftExtension/Array+Safe.swift"; sourceTree = "<group>"; };
-		94F9B4261FC3ADA234AFA2C368FB7E5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		99DA88E7A4D9F601C1F91CB7FDC9CE3E /* NSObject+MsgReceiver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MsgReceiver.m"; sourceTree = "<group>"; };
+		9B776EFEE079FF54DDAC3BD420C54F4C /* NSString+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Safe.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1A022B116C2C8254B8F76EBB918BB70 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
-		AB9E0DC1A347BD4298D0D7B38FFAB862 /* NSTimer+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Safe.m"; sourceTree = "<group>"; };
+		9F5D3AFD8138DFED4E4D1A091EEFAEA5 /* CGFloat+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGFloat+Ex.swift"; path = "FFSwiftExtension/CGFloat+Ex.swift"; sourceTree = "<group>"; };
+		A0CB50107FA1065F1A34794DF90CDD60 /* DeviceList.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = DeviceList.plist; path = FFSwiftExtension/WKCrashSDK/Report/DeviceList.plist; sourceTree = "<group>"; };
+		A1FE9B920D0463428F0FBB18EA6774E1 /* NSNull+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNull+Safe.h"; sourceTree = "<group>"; };
+		A71855711886B513AC5AB70AC16BAA43 /* NSNotificationCenter+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+Safe.m"; sourceTree = "<group>"; };
+		A8516C27BF28FDA49A1CCE6E88FF1E2B /* UIScreen+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+Ex.swift"; path = "FFSwiftExtension/UIScreen+Ex.swift"; sourceTree = "<group>"; };
+		AF6A0BE0130297FA50D2AD4B22987574 /* NSArray+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
 		B02EE56C55B86AD02BF2543740A29320 /* FFSwiftExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FFSwiftExtension.framework; path = FFSwiftExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B252D78FFE4EF1DCB857B7F6A70A20B4 /* Double+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+Ex.swift"; path = "FFSwiftExtension/Double+Ex.swift"; sourceTree = "<group>"; };
+		B0C8BC42F89E6CACB8C5CEF1562C5C5F /* NSMutableString+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Safe.h"; sourceTree = "<group>"; };
 		B6B5607236E0E909605DC8F73A5C8547 /* Pods-FFSwiftExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFSwiftExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B6EF3D9A6D2382925B48D1570EF80189 /* FFSwiftExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFSwiftExtension-Info.plist"; sourceTree = "<group>"; };
-		BB41E1AD6108A35BA74DEC32A2675F69 /* FFSwiftExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFSwiftExtension.release.xcconfig; sourceTree = "<group>"; };
+		B76A798080E525D547E35EE7F07956A7 /* NSArray+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		BC2C5CADD07E2689724C6AF7ECEED1B9 /* UIView+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Ex.swift"; path = "FFSwiftExtension/UIView+Ex.swift"; sourceTree = "<group>"; };
+		BDFD5D291F1C7533220F2A06A7B120C4 /* NSNotificationCenter+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+Safe.h"; sourceTree = "<group>"; };
 		C0233BC4E12897D6F6EF9AED8F35FB4C /* Pods_FFSwiftExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFSwiftExtension_Tests.framework; path = "Pods-FFSwiftExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1DCF5BCB0CDCFE843BCCFA7D96A8CB3 /* WKZombieManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WKZombieManager.h; sourceTree = "<group>"; };
-		C32C43CBE0AF9E6E5B79054681AFCC91 /* WKZombieManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WKZombieManager.m; sourceTree = "<group>"; };
+		C37D30D92F3AAC026859E5F1115E4EE0 /* NSTimer+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Safe.m"; sourceTree = "<group>"; };
+		C58D75E768730284E84E3C81D0BC42CE /* NSObject+MsgReceiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+MsgReceiver.h"; sourceTree = "<group>"; };
 		C686EF21A505D168A9D5B7C0E739A396 /* Pods-FFSwiftExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFSwiftExtension_Tests.modulemap"; sourceTree = "<group>"; };
-		C6D3DFF896D2E057008FABA0834952B0 /* NSObject+SafeKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeKVO.h"; sourceTree = "<group>"; };
-		C92D702E337551E964C50DD27E042790 /* FFSwiftExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFSwiftExtension.modulemap; sourceTree = "<group>"; };
-		CCDF01E0AC58896901CED323E9ED8400 /* FFSwiftExtension.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FFSwiftExtension.bundle; path = FFSwiftExtension/FFSwiftExtension.bundle; sourceTree = "<group>"; };
-		CE44278848C23F9418670D57A3CC01C3 /* CGFloat+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGFloat+Ex.swift"; path = "FFSwiftExtension/CGFloat+Ex.swift"; sourceTree = "<group>"; };
-		CED7035EB948F82F923CFA8242244259 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		C723B0226D4154653E5FEB143242A458 /* FFSwiftExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FFSwiftExtension-Info.plist"; sourceTree = "<group>"; };
+		CA362689403DC556D90E7FAC8AB9F45C /* NSSet+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSet+Safe.m"; sourceTree = "<group>"; };
+		CC8F2ABFB68B15135D7B4585588D0210 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		D214DFB84B8CACABC0ADCDCA6CF6A0BD /* FFSwiftExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFSwiftExtension-prefix.pch"; sourceTree = "<group>"; };
+		D313F3BDFB0639C71D33B837978AB35B /* FFSwiftExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFSwiftExtension.modulemap; sourceTree = "<group>"; };
+		D33D73945124A0AD62C2D0FCA7F06B9F /* UserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaults.swift; path = FFSwiftExtension/UserDefaults.swift; sourceTree = "<group>"; };
+		D5CD4F8463DA574D1D15F5F57D97D935 /* WKCrashManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCrashManager.h; path = FFSwiftExtension/WKCrashSDK/WKCrashManager.h; sourceTree = "<group>"; };
+		D8ED23F6C98D73AF3FAF501224602CB6 /* FFSwiftExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFSwiftExtension.release.xcconfig; sourceTree = "<group>"; };
 		DB0ADADD529F320FC4BDD9CAC2BDA58A /* Pods-FFSwiftExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFSwiftExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DBA8C18BD565094A0E95CB99808184D5 /* NSObject+WKZombie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+WKZombie.h"; sourceTree = "<group>"; };
 		DBE8E83538B2326B7D57D7C3BC7199EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DC6C23C32AF4368BB653EE86BF68AB5B /* NSDictionary+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		E050070BA733186874DFD03B2966A2E9 /* NSObject+WKZombie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+WKZombie.h"; sourceTree = "<group>"; };
 		E3FE601971BE290EC56F16806C59DEBE /* Pods-FFSwiftExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFSwiftExtension_Example-umbrella.h"; sourceTree = "<group>"; };
 		E4C2C9EBA77371B18B62DF65996D4A60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E8474B2ED6865BCFA8AB32E102A24771 /* Pods_FFSwiftExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FFSwiftExtension_Example.framework; path = "Pods-FFSwiftExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C16C4430239152E20755238F839EA8 /* FFSwiftExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFSwiftExtension-dummy.m"; sourceTree = "<group>"; };
 		EA3675C300D3DEB595B847C45F60AA37 /* Pods-FFSwiftExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFSwiftExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EC87BA0436E659A7594B82110B8AAB00 /* UIViewController+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Ex.swift"; path = "FFSwiftExtension/UIViewController+Ex.swift"; sourceTree = "<group>"; };
-		EEB1E8C40D59D3961A02AE30EEF02E78 /* DeviceUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeviceUtil.h; sourceTree = "<group>"; };
-		EECA69D406869351BF16555FD74238E8 /* UILabel+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Ex.swift"; path = "FFSwiftExtension/UILabel+Ex.swift"; sourceTree = "<group>"; };
+		EB0C3B427EF23AB4B672FC49A90E503C /* FFSwiftExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFSwiftExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EFBD42BC380699DE7046F93BC1CD1155 /* FFSwiftExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFSwiftExtension-umbrella.h"; sourceTree = "<group>"; };
 		F0C4F4B64D8FD821AAD8F3E981E9C62A /* Pods-FFSwiftExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFSwiftExtension_Example-Info.plist"; sourceTree = "<group>"; };
-		F0E72DFA1F1A6DC43855385F885AF00D /* FFSwiftExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFSwiftExtension-umbrella.h"; sourceTree = "<group>"; };
 		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		FB90B2C9C3DB328A3C23C69010BDFD9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		FC48DCA1C029D2E20438CCF06EE5B795 /* NSMutableString+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Safe.h"; sourceTree = "<group>"; };
+		F2F3C8CDAB505310567EA1956EECC20B /* NSNull+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Safe.m"; sourceTree = "<group>"; };
+		F6F9CBFF84938B7F4EED9ABF64E80C14 /* UIViewController+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Ex.swift"; path = "FFSwiftExtension/UIViewController+Ex.swift"; sourceTree = "<group>"; };
+		F71890C6952838035E7A51E44C90F28F /* NSObject+SafeKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeKVO.h"; sourceTree = "<group>"; };
+		F72F75DBAA3F6C318B53843E4426EAF6 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		F82BD6623FA84AB3DE07B7F49ADF9BFD /* NSTimer+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Safe.h"; sourceTree = "<group>"; };
 		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		FD3AE1722CEF39620E6FF9F82C601C54 /* FFSwiftExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFSwiftExtension-prefix.pch"; sourceTree = "<group>"; };
-		FD4993B272FDDAFA875111DE12E454D9 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		FFEC51EF9022112B250A11741FC24BEC /* Double+Ex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+Ex.swift"; path = "FFSwiftExtension/Double+Ex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		166D562AD1C53BBF762BB19547F96926 /* Frameworks */ = {
+		48A90F64B1CF115479744C40221392A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E1395AB3A17F52F1FEFB9BE76AFF4C /* CoreGraphics.framework in Frameworks */,
-				C73238A98868C623453AA469EF6DB15B /* Foundation.framework in Frameworks */,
-				839843AC54DA3F5D9AB90024D4ECEF4D /* QuartzCore.framework in Frameworks */,
+				A1571B90DF86A9CE1B93C8DC93377354 /* Foundation.framework in Frameworks */,
+				B05CD57192C54F120E7020215CD38053 /* MBProgressHUD.framework in Frameworks */,
+				8483D078E2B732D66024AE5FD0E700C9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		762B2FC15E000FEE3EEFE93DB902EDBC /* Frameworks */ = {
+		7F09B61C1471C37B76BF62DF6CA05A07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8216CC89AE6F497FA3A3866D647BE51 /* Foundation.framework in Frameworks */,
-				A1AE6F6927BD9C75F122A6AC6D1BB92A /* MBProgressHUD.framework in Frameworks */,
-				E7445CC6BDC2EB147F37FB82ACA5D87A /* UIKit.framework in Frameworks */,
+				58E164B78E9F265CB957153781C7C7A3 /* CoreGraphics.framework in Frameworks */,
+				FE4F3C8D2ED69E526C0A034446842CAC /* Foundation.framework in Frameworks */,
+				DC531D38367A61DAB59ADE7E3818958C /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +263,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C7373798EE2234671986F5BE3659AE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5E5E20A113BB107078D3A1E026967B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,54 +300,72 @@
 			path = "Target Support Files/Pods-FFSwiftExtension_Tests";
 			sourceTree = "<group>";
 		};
-		04145842304319F9D967E2CAA3D4963B /* String */ = {
+		10CB56719D88CD816B10A9F337A35414 /* Null */ = {
 			isa = PBXGroup;
 			children = (
-				FC48DCA1C029D2E20438CCF06EE5B795 /* NSMutableString+Safe.h */,
-				552E7F09971CE11E57A9C4F86F34C84F /* NSMutableString+Safe.m */,
-				56F785C2D93B766B11F23460289B854C /* NSString+Safe.h */,
-				79D167F6E5F59995244FF6F234EE6735 /* NSString+Safe.m */,
+				A1FE9B920D0463428F0FBB18EA6774E1 /* NSNull+Safe.h */,
+				F2F3C8CDAB505310567EA1956EECC20B /* NSNull+Safe.m */,
 			);
-			name = String;
-			path = FFSwiftExtension/WKCrashSDK/String;
+			name = Null;
+			path = FFSwiftExtension/WKCrashSDK/Null;
 			sourceTree = "<group>";
 		};
-		0FA98FE09DF35D84139D08C4FC100FFC /* Container */ = {
+		12DC8DBF35D4E9ACD8AC62C9E6155ADA /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				047D558CD0BD3DBC102FD0156ACA3626 /* NSArray+Safe.h */,
-				01051F9232D6C135CC264F0CA0DCEF1D /* NSArray+Safe.m */,
-				CED7035EB948F82F923CFA8242244259 /* NSDictionary+Safe.h */,
-				FD4993B272FDDAFA875111DE12E454D9 /* NSDictionary+Safe.m */,
-				747CEBF645333AF9EC2DE515460B9024 /* NSMutableArray+Safe.h */,
-				1F39BD6D2818D346D870C833AE782502 /* NSMutableArray+Safe.m */,
-				3D9908D839D254DA62E1EA3ABB22AAD6 /* NSMutableArray+SafeObjectAtIndex.h */,
-				5B093E19C2571A47F1D22E8133898A5E /* NSMutableArray+SafeObjectAtIndex.m */,
-				A1A022B116C2C8254B8F76EBB918BB70 /* NSMutableDictionary+Safe.h */,
-				8B0FDB3F2AD980C47C26B9CB7FF874D5 /* NSMutableDictionary+Safe.m */,
-				739F490893C76B6C224280AC92114A4C /* NSMutableSet+Safe.h */,
-				73A146D2AD7660A144225B06BDCB66BC /* NSMutableSet+Safe.m */,
-				6264C3942A18AD94165F5F8EB4106EED /* NSSet+Safe.h */,
-				2283D6AACD77FAD4613EA341A05E2561 /* NSSet+Safe.m */,
+				3944CEA1DCDEE82F9B638AB70F35869E /* UIApplication+Ex.swift */,
+				11C729D99C013073D29757BF6063D61A /* UIButton+Ex.swift */,
+				1A0FED55E6C64C60CEF8F293DECDC037 /* UIColor+Ex.swift */,
+				32C22B32A40AA7E9D8044DF38DAF6721 /* UILabel+Ex.swift */,
+				2440249A705BEB1ACFE6C57CAD0DEC05 /* UIPasteboard+Ex.swift */,
+				A8516C27BF28FDA49A1CCE6E88FF1E2B /* UIScreen+Ex.swift */,
+				BC2C5CADD07E2689724C6AF7ECEED1B9 /* UIView+Ex.swift */,
+				F6F9CBFF84938B7F4EED9ABF64E80C14 /* UIViewController+Ex.swift */,
 			);
-			name = Container;
-			path = FFSwiftExtension/WKCrashSDK/Container;
+			name = UIKit;
 			sourceTree = "<group>";
 		};
-		1018AE2CF2A4DFD2A0EE82A1A8B628F0 /* Views */ = {
+		23228E4967981E688551DE86D3272186 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				695841189CAD66E379F1171DDC812D3A /* HUDView.swift */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		32E29D04A50196524DB5764C07B804BA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CCDF01E0AC58896901CED323E9ED8400 /* FFSwiftExtension.bundle */,
+				0BEB212AC7B6F6C673C5CFB6FDA9D399 /* FFSwiftExtension.bundle */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		2714B46DDBC3D0D7D7A21380A0813B9F /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD5D291F1C7533220F2A06A7B120C4 /* NSNotificationCenter+Safe.h */,
+				A71855711886B513AC5AB70AC16BAA43 /* NSNotificationCenter+Safe.m */,
+			);
+			name = Notification;
+			path = FFSwiftExtension/WKCrashSDK/Notification;
+			sourceTree = "<group>";
+		};
+		28493658FFC998D253AA6991307EC15B /* FFSwiftExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9876398AEBC983C0F538BE4B54657221 /* Foundation */,
+				82EB69FA28D606227639564784BD5DF8 /* Pod */,
+				23228E4967981E688551DE86D3272186 /* Resources */,
+				3B03AEF28E613BBE239DFE46C699D81B /* Safe */,
+				6DB2ABC9299651329A349B1E51A8DEF1 /* Support Files */,
+				12DC8DBF35D4E9ACD8AC62C9E6155ADA /* UIKit */,
+				B344F0444738847985086EC1ECC6B95E /* Views */,
+				B6FB7D452203E5A479028BEBD3473EF4 /* WKCrashSDK */,
+			);
+			name = FFSwiftExtension;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3B03AEF28E613BBE239DFE46C699D81B /* Safe */ = {
+			isa = PBXGroup;
+			children = (
+				5405EC27898E9580C32D66A03B31C668 /* Array+Safe.swift */,
+				4138D7FEB217F3AE97799B2E3F46ACEE /* Dictionary+Safe.swift */,
+			);
+			name = Safe;
 			sourceTree = "<group>";
 		};
 		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
@@ -339,73 +376,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		44155538D884CBAF395F4495142B63D9 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				08653A184B2FACB909DCFBAEDAF7D77A /* UIApplication+Ex.swift */,
-				13B4D217D763DBE692095C4234696CC8 /* UIButton+Ex.swift */,
-				79B4D332907FA848AD6E2438884ED5E7 /* UIColor+Ex.swift */,
-				EECA69D406869351BF16555FD74238E8 /* UILabel+Ex.swift */,
-				57D256D49014A180AD142BC97456F2D5 /* UIPasteboard+Ex.swift */,
-				191DE3D5AEC8DDBDBAB17F199CB7C9BE /* UIScreen+Ex.swift */,
-				624FD7AB8FBF1AD369F0A4238ACB6C4A /* UIView+Ex.swift */,
-				EC87BA0436E659A7594B82110B8AAB00 /* UIViewController+Ex.swift */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
 		4428FC4A62397217E970B41B9A0E331C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				475CAFD56295C813DAA305F22C8B2783 /* FFSwiftExtension */,
+				28493658FFC998D253AA6991307EC15B /* FFSwiftExtension */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		45AEA583E916CABE3A2994C054C6879D /* WKCrashSDK */ = {
+		50EF879D0E6E4AB0087CE4854C452941 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				7C26372BAE8F90C8CBFD555516282699 /* WKCrashManager.h */,
-				2FFE8C24D024C581171025EECEC852BD /* WKCrashManager.m */,
-				2DE2E4A08A948D1DFF984A1FCD3FEE55 /* WKHeader.h */,
-				0890D76794603F3570BD64C5E7AE481E /* WKSwizzle.h */,
-				0FA98FE09DF35D84139D08C4FC100FFC /* Container */,
-				771050E7FA4745D6A4AF344B497E717D /* KVO */,
-				ED5EFEBDB31228587CBBA3C3B2432F44 /* MsgReceiver */,
-				9A1D967811774B4D7415C4F52FA84C03 /* Notification */,
-				B618F315895005D4EB027944D04E3761 /* Null */,
-				84A6799FAF3C1C82D8255C5DFC8C929C /* Report */,
-				04145842304319F9D967E2CAA3D4963B /* String */,
-				70AB6075FFB766115294754DAFAA2220 /* Timer */,
-				7B689D246358A8C4F017C0A1DB18AD89 /* Zombie */,
+				F82BD6623FA84AB3DE07B7F49ADF9BFD /* NSTimer+Safe.h */,
+				C37D30D92F3AAC026859E5F1115E4EE0 /* NSTimer+Safe.m */,
 			);
-			name = WKCrashSDK;
-			sourceTree = "<group>";
-		};
-		471AB82BB573C0C2372F9B802C8B7826 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				09F0A8D17E48D478E5820C3939C097D8 /* FFSwiftExtension.podspec */,
-				94F9B4261FC3ADA234AFA2C368FB7E5D /* LICENSE */,
-				FB90B2C9C3DB328A3C23C69010BDFD9D /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		475CAFD56295C813DAA305F22C8B2783 /* FFSwiftExtension */ = {
-			isa = PBXGroup;
-			children = (
-				DE92A60C92253FDD553868491FFD4B06 /* Foundation */,
-				471AB82BB573C0C2372F9B802C8B7826 /* Pod */,
-				32E29D04A50196524DB5764C07B804BA /* Resources */,
-				D82910EB678407B285FEDE6D3505381A /* Safe */,
-				8B73C5956A229991AF4ECD8C877EAF47 /* Support Files */,
-				44155538D884CBAF395F4495142B63D9 /* UIKit */,
-				1018AE2CF2A4DFD2A0EE82A1A8B628F0 /* Views */,
-				45AEA583E916CABE3A2994C054C6879D /* WKCrashSDK */,
-			);
-			name = FFSwiftExtension;
-			path = ../..;
+			name = Timer;
+			path = FFSwiftExtension/WKCrashSDK/Timer;
 			sourceTree = "<group>";
 		};
 		544C2FD95A63603551C9AAE55864E5CC /* Targets Support Files */ = {
@@ -415,6 +401,55 @@
 				0186F131D2364737B6E8ACEA2F7AFDE7 /* Pods-FFSwiftExtension_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5512F8F286900665F7509C519E4EB478 /* Zombie */ = {
+			isa = PBXGroup;
+			children = (
+				E050070BA733186874DFD03B2966A2E9 /* NSObject+WKZombie.h */,
+				32C37EA2E557A146F955D027C24AEF4E /* WKZombieManager.h */,
+				2C6E77489ADA3925F694156D652ADE6D /* WKZombieManager.m */,
+			);
+			name = Zombie;
+			path = FFSwiftExtension/WKCrashSDK/Zombie;
+			sourceTree = "<group>";
+		};
+		6DB2ABC9299651329A349B1E51A8DEF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D313F3BDFB0639C71D33B837978AB35B /* FFSwiftExtension.modulemap */,
+				E8C16C4430239152E20755238F839EA8 /* FFSwiftExtension-dummy.m */,
+				C723B0226D4154653E5FEB143242A458 /* FFSwiftExtension-Info.plist */,
+				D214DFB84B8CACABC0ADCDCA6CF6A0BD /* FFSwiftExtension-prefix.pch */,
+				EFBD42BC380699DE7046F93BC1CD1155 /* FFSwiftExtension-umbrella.h */,
+				3F7953FDA4F38D27D9168E42AD36C25E /* FFSwiftExtension.debug.xcconfig */,
+				D8ED23F6C98D73AF3FAF501224602CB6 /* FFSwiftExtension.release.xcconfig */,
+				418A74E00222BCF2D7F0C14EE7BB94B3 /* ResourceBundle-FFSwiftExtension-FFSwiftExtension-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FFSwiftExtension";
+			sourceTree = "<group>";
+		};
+		6E64376DE861E3DE803D2CD0CFE4BE50 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				B76A798080E525D547E35EE7F07956A7 /* NSArray+Safe.h */,
+				AF6A0BE0130297FA50D2AD4B22987574 /* NSArray+Safe.m */,
+				CC8F2ABFB68B15135D7B4585588D0210 /* NSDictionary+Safe.h */,
+				DC6C23C32AF4368BB653EE86BF68AB5B /* NSDictionary+Safe.m */,
+				51FFBE5AFF6A700AD025B2E9592402E1 /* NSMutableArray+Safe.h */,
+				5089746DC451BBADF6822943009706E4 /* NSMutableArray+Safe.m */,
+				5DF9B4192E553DF2A7041C4E56BE5398 /* NSMutableArray+SafeObjectAtIndex.h */,
+				4996826D05397C3733C63D3F89421E9A /* NSMutableArray+SafeObjectAtIndex.m */,
+				F72F75DBAA3F6C318B53843E4426EAF6 /* NSMutableDictionary+Safe.h */,
+				3D7E748EB2BAD163AA8B345DAC274147 /* NSMutableDictionary+Safe.m */,
+				2B4DE93F9F4B9B247B108C8E34024BE6 /* NSMutableSet+Safe.h */,
+				17339694CF0316F451683D87D3A861F1 /* NSMutableSet+Safe.m */,
+				1722AB6AD5CAF0EF4E3CA51A37F68DC6 /* NSSet+Safe.h */,
+				CA362689403DC556D90E7FAC8AB9F45C /* NSSet+Safe.m */,
+			);
+			name = Container;
+			path = FFSwiftExtension/WKCrashSDK/Container;
 			sourceTree = "<group>";
 		};
 		6E682DFA9239AF650B0EBF26441EA950 /* iOS */ = {
@@ -428,26 +463,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		70AB6075FFB766115294754DAFAA2220 /* Timer */ = {
-			isa = PBXGroup;
-			children = (
-				013060FF009AB960B401774809BCAE9C /* NSTimer+Safe.h */,
-				AB9E0DC1A347BD4298D0D7B38FFAB862 /* NSTimer+Safe.m */,
-			);
-			name = Timer;
-			path = FFSwiftExtension/WKCrashSDK/Timer;
-			sourceTree = "<group>";
-		};
-		771050E7FA4745D6A4AF344B497E717D /* KVO */ = {
-			isa = PBXGroup;
-			children = (
-				C6D3DFF896D2E057008FABA0834952B0 /* NSObject+SafeKVO.h */,
-				647E03B447D9672E16743A616411579B /* NSObject+SafeKVO.m */,
-			);
-			name = KVO;
-			path = FFSwiftExtension/WKCrashSDK/KVO;
-			sourceTree = "<group>";
-		};
 		792D91FFF0020D2210CF9D5D11F59D39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -455,17 +470,6 @@
 				6E682DFA9239AF650B0EBF26441EA950 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7B689D246358A8C4F017C0A1DB18AD89 /* Zombie */ = {
-			isa = PBXGroup;
-			children = (
-				DBA8C18BD565094A0E95CB99808184D5 /* NSObject+WKZombie.h */,
-				C1DCF5BCB0CDCFE843BCCFA7D96A8CB3 /* WKZombieManager.h */,
-				C32C43CBE0AF9E6E5B79054681AFCC91 /* WKZombieManager.m */,
-			);
-			name = Zombie;
-			path = FFSwiftExtension/WKCrashSDK/Zombie;
 			sourceTree = "<group>";
 		};
 		7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */ = {
@@ -479,31 +483,14 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		84A6799FAF3C1C82D8255C5DFC8C929C /* Report */ = {
+		82EB69FA28D606227639564784BD5DF8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EEB1E8C40D59D3961A02AE30EEF02E78 /* DeviceUtil.h */,
-				5892AA2441C926E67FC2E124FC25AF38 /* DeviceUtil.m */,
-				1D42343E202C0CD476C6B1741F430825 /* WKCrashReport.h */,
-				3EB1EBEDB355CB5B7F235A3B0D344DB9 /* WKCrashReport.m */,
+				EB0C3B427EF23AB4B672FC49A90E503C /* FFSwiftExtension.podspec */,
+				7BB2B3A685ECDD5FA7E7D77EA779A97A /* LICENSE */,
+				776ADC12059BCF5D0CE2E2DFEB4A11B7 /* README.md */,
 			);
-			name = Report;
-			path = FFSwiftExtension/WKCrashSDK/Report;
-			sourceTree = "<group>";
-		};
-		8B73C5956A229991AF4ECD8C877EAF47 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C92D702E337551E964C50DD27E042790 /* FFSwiftExtension.modulemap */,
-				2C0C72D27ECAAE7BE47778D01BDA9D7C /* FFSwiftExtension-dummy.m */,
-				B6EF3D9A6D2382925B48D1570EF80189 /* FFSwiftExtension-Info.plist */,
-				FD3AE1722CEF39620E6FF9F82C601C54 /* FFSwiftExtension-prefix.pch */,
-				F0E72DFA1F1A6DC43855385F885AF00D /* FFSwiftExtension-umbrella.h */,
-				2438629E06B2B178F54BE8BE36FB387C /* FFSwiftExtension.debug.xcconfig */,
-				BB41E1AD6108A35BA74DEC32A2675F69 /* FFSwiftExtension.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FFSwiftExtension";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9093D38AC0607A2403439DEC0BAE62D5 /* Pods-FFSwiftExtension_Example */ = {
@@ -523,35 +510,64 @@
 			path = "Target Support Files/Pods-FFSwiftExtension_Example";
 			sourceTree = "<group>";
 		};
-		9A1D967811774B4D7415C4F52FA84C03 /* Notification */ = {
+		9876398AEBC983C0F538BE4B54657221 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				0F24F2A8B2CB140CCBA8F09E0442485E /* NSNotificationCenter+Safe.h */,
-				1318D1AA0E93004366E15F0961C4B1A2 /* NSNotificationCenter+Safe.m */,
+				2391AEC3E45F140BF9187119A08F2E08 /* AttributedString+Ex.swift */,
+				9F5D3AFD8138DFED4E4D1A091EEFAEA5 /* CGFloat+Ex.swift */,
+				FFEC51EF9022112B250A11741FC24BEC /* Double+Ex.swift */,
+				0E30A1FE6FA108E738BA76D6866B16F1 /* Int+Ex.swift */,
+				18552B002AE9CE23CEEF7F340FFED8E9 /* String+Ex.swift */,
+				D33D73945124A0AD62C2D0FCA7F06B9F /* UserDefaults.swift */,
 			);
-			name = Notification;
-			path = FFSwiftExtension/WKCrashSDK/Notification;
+			name = Foundation;
 			sourceTree = "<group>";
 		};
-		9ED643C134E0EFE03518B7FFA2129E39 /* Products */ = {
+		A23C98D69CEE8451BA9D7AE1215F4846 /* KVO */ = {
 			isa = PBXGroup;
 			children = (
-				B02EE56C55B86AD02BF2543740A29320 /* FFSwiftExtension.framework */,
-				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
-				E8474B2ED6865BCFA8AB32E102A24771 /* Pods_FFSwiftExtension_Example.framework */,
-				C0233BC4E12897D6F6EF9AED8F35FB4C /* Pods_FFSwiftExtension_Tests.framework */,
+				F71890C6952838035E7A51E44C90F28F /* NSObject+SafeKVO.h */,
+				2BECE95A84C8E44A7B98D1CF184FFD59 /* NSObject+SafeKVO.m */,
 			);
-			name = Products;
+			name = KVO;
+			path = FFSwiftExtension/WKCrashSDK/KVO;
 			sourceTree = "<group>";
 		};
-		B618F315895005D4EB027944D04E3761 /* Null */ = {
+		AF4154E7D8F0DAB9D34B15131D2EEBB2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6C8DD1CA20546E06FA19A83198E8FC3C /* NSNull+Safe.h */,
-				5DF7C8892335D51E037F679709BF3310 /* NSNull+Safe.m */,
+				A0CB50107FA1065F1A34794DF90CDD60 /* DeviceList.plist */,
 			);
-			name = Null;
-			path = FFSwiftExtension/WKCrashSDK/Null;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B344F0444738847985086EC1ECC6B95E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36689CADC6B0EC424CC56EC790468C94 /* HUDView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B6FB7D452203E5A479028BEBD3473EF4 /* WKCrashSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D5CD4F8463DA574D1D15F5F57D97D935 /* WKCrashManager.h */,
+				194497C93F35B57C20BB4773B38C7EA7 /* WKCrashManager.m */,
+				778A7D8F2C5F9F2BB2835C52F3C7C161 /* WKHeader.h */,
+				65FC20A4706F3F87A2A4F8FB4407D733 /* WKSwizzle.h */,
+				6E64376DE861E3DE803D2CD0CFE4BE50 /* Container */,
+				A23C98D69CEE8451BA9D7AE1215F4846 /* KVO */,
+				CAB184E356E118046BF98EE676C3AD9B /* MsgReceiver */,
+				2714B46DDBC3D0D7D7A21380A0813B9F /* Notification */,
+				10CB56719D88CD816B10A9F337A35414 /* Null */,
+				D157832A279DDC6A712B7401A37D73F8 /* Report */,
+				AF4154E7D8F0DAB9D34B15131D2EEBB2 /* Resources */,
+				E60A4AB8C03D6E73DAFC667534A9F866 /* String */,
+				50EF879D0E6E4AB0087CE4854C452941 /* Timer */,
+				5512F8F286900665F7509C519E4EB478 /* Zombie */,
+			);
+			name = WKCrashSDK;
 			sourceTree = "<group>";
 		};
 		C86A493F744575B77BC85AB9B143DAC2 /* Support Files */ = {
@@ -569,6 +585,18 @@
 			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
+		CAB184E356E118046BF98EE676C3AD9B /* MsgReceiver */ = {
+			isa = PBXGroup;
+			children = (
+				C58D75E768730284E84E3C81D0BC42CE /* NSObject+MsgReceiver.h */,
+				99DA88E7A4D9F601C1F91CB7FDC9CE3E /* NSObject+MsgReceiver.m */,
+				83613FA8ECD44B4943B19F823A88C095 /* WKMsgReceiver.h */,
+				82594BC9B48A1E0117A99E30D3E040F9 /* WKMsgReceiver.m */,
+			);
+			name = MsgReceiver;
+			path = FFSwiftExtension/WKCrashSDK/MsgReceiver;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -576,75 +604,86 @@
 				4428FC4A62397217E970B41B9A0E331C /* Development Pods */,
 				792D91FFF0020D2210CF9D5D11F59D39 /* Frameworks */,
 				3F242479102E24C5847AB040CB8095A8 /* Pods */,
-				9ED643C134E0EFE03518B7FFA2129E39 /* Products */,
+				F042998E0A31A6D22A64DBCC6CB8BF3C /* Products */,
 				544C2FD95A63603551C9AAE55864E5CC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D82910EB678407B285FEDE6D3505381A /* Safe */ = {
+		D157832A279DDC6A712B7401A37D73F8 /* Report */ = {
 			isa = PBXGroup;
 			children = (
-				8D45356EFC18075A86251158ACFBE7A4 /* Array+Safe.swift */,
-				00346CC2406A6265D74A5B4F19E5210D /* Dictionary+Safe.swift */,
+				3AD8BD4D4257BCD8955A248C1BF4DC9E /* DeviceUtil.h */,
+				0098124BFD40D784BB123972B6DE6A28 /* DeviceUtil.m */,
+				89A2394939FE5CE2AB2352E8C5BB1E84 /* WKCrashReport.h */,
+				071FF0216F9AE675D8401E8ECF5D8B84 /* WKCrashReport.m */,
 			);
-			name = Safe;
+			name = Report;
+			path = FFSwiftExtension/WKCrashSDK/Report;
 			sourceTree = "<group>";
 		};
-		DE92A60C92253FDD553868491FFD4B06 /* Foundation */ = {
+		E60A4AB8C03D6E73DAFC667534A9F866 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				635D6B0609880D94B8CF7037677D39E9 /* AttributedString+Ex.swift */,
-				CE44278848C23F9418670D57A3CC01C3 /* CGFloat+Ex.swift */,
-				B252D78FFE4EF1DCB857B7F6A70A20B4 /* Double+Ex.swift */,
-				2E618223C2184285450A796C922C2C77 /* Int+Ex.swift */,
-				3F6C226913D66F8E6F2B973AD9DA7A77 /* String+Ex.swift */,
-				20EDB33D512EA18CC2FC4AA3C7C281EE /* UserDefaults.swift */,
+				B0C8BC42F89E6CACB8C5CEF1562C5C5F /* NSMutableString+Safe.h */,
+				00E5320FCFB24707ECF310C0A96D8823 /* NSMutableString+Safe.m */,
+				9B776EFEE079FF54DDAC3BD420C54F4C /* NSString+Safe.h */,
+				087BAC693F92790C415BACEF31F99360 /* NSString+Safe.m */,
 			);
-			name = Foundation;
+			name = String;
+			path = FFSwiftExtension/WKCrashSDK/String;
 			sourceTree = "<group>";
 		};
-		ED5EFEBDB31228587CBBA3C3B2432F44 /* MsgReceiver */ = {
+		F042998E0A31A6D22A64DBCC6CB8BF3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CE9107D2A43A6923C9A4EB63E749D3E /* NSObject+MsgReceiver.h */,
-				2154D3BB3AB45986B3B2316114487E9C /* NSObject+MsgReceiver.m */,
-				82DDF6D8F51678CF0FC66F3362834986 /* WKMsgReceiver.h */,
-				496EE52FCDBD42B4B18AF809C9ED30EC /* WKMsgReceiver.m */,
+				638972E864580D61B44195D1B226F78C /* FFSwiftExtension.bundle */,
+				B02EE56C55B86AD02BF2543740A29320 /* FFSwiftExtension.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				E8474B2ED6865BCFA8AB32E102A24771 /* Pods_FFSwiftExtension_Example.framework */,
+				C0233BC4E12897D6F6EF9AED8F35FB4C /* Pods_FFSwiftExtension_Tests.framework */,
 			);
-			name = MsgReceiver;
-			path = FFSwiftExtension/WKCrashSDK/MsgReceiver;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5330ABB65C2A29CA021CBAD9A66F7320 /* Headers */ = {
+		0ED62636D495409C2981BBD39FA55D6B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C7CFC96572348FEA6131F6284FC688 /* DeviceUtil.h in Headers */,
-				188FAF6A8E2F5FED7CC4038073AEF9EB /* FFSwiftExtension-umbrella.h in Headers */,
-				A989EC69670E73C081A13B6CD4C6AAB4 /* NSArray+Safe.h in Headers */,
-				838E5D280D20B697060FAB8674F2C387 /* NSDictionary+Safe.h in Headers */,
-				A058CFF394A76699402C71FB1F399418 /* NSMutableArray+Safe.h in Headers */,
-				699EBB979766BB3928B505A149987BF4 /* NSMutableArray+SafeObjectAtIndex.h in Headers */,
-				F5312059A97B5C61328C1E7CC48CE882 /* NSMutableDictionary+Safe.h in Headers */,
-				3AD7BCAFB74882EB014E4AF1B9E41DD1 /* NSMutableSet+Safe.h in Headers */,
-				8BCEB089F43EDAFD83F358F6E8B10B84 /* NSMutableString+Safe.h in Headers */,
-				CD71D877E82AF33D90EC4E932F173874 /* NSNotificationCenter+Safe.h in Headers */,
-				FC92343A3F1E3B7909C35C06C878D0C2 /* NSNull+Safe.h in Headers */,
-				DDEA7FE2D30E454D08FD6929F5F7F0D8 /* NSObject+MsgReceiver.h in Headers */,
-				543A0E75E433A07A7301A0715E7EF4CC /* NSObject+SafeKVO.h in Headers */,
-				897E64125CFB993F55D8D253A505647A /* NSObject+WKZombie.h in Headers */,
-				C0E4CAC82D97421868BEC6BA3B3FCA6D /* NSSet+Safe.h in Headers */,
-				F69F38BB7033810F385F58BECC81B7A9 /* NSString+Safe.h in Headers */,
-				4AE62D64AAF9DA544B04B751D767B14F /* NSTimer+Safe.h in Headers */,
-				B0A6F9E5272366B367AF785048E1D359 /* WKCrashManager.h in Headers */,
-				06243CBF611575EAA4530A688F88BE2E /* WKCrashReport.h in Headers */,
-				2D5E524EFC11DEE3827C4370430D2B84 /* WKHeader.h in Headers */,
-				97A06075499A50A24FE1EB038682CE79 /* WKMsgReceiver.h in Headers */,
-				A453FC368CCB132CC14223A67C908163 /* WKSwizzle.h in Headers */,
-				126DA1003260FAE98457D85BB252724A /* WKZombieManager.h in Headers */,
+				6760EB8C816F40124CA79849048FCD03 /* DeviceUtil.h in Headers */,
+				9E198E7C97933DB880FC7B30B39C1D30 /* FFSwiftExtension-umbrella.h in Headers */,
+				21487B869C2D664F2AADE504C2741328 /* NSArray+Safe.h in Headers */,
+				43EB3C771CF8A38044CCFA2755ECAE91 /* NSDictionary+Safe.h in Headers */,
+				4E04508712B5002A729C5977A7E05E26 /* NSMutableArray+Safe.h in Headers */,
+				0A15B45DB9AA3EDACBE3A567CCC3E2EB /* NSMutableArray+SafeObjectAtIndex.h in Headers */,
+				2BECE97DCAB1D6206E41B22AE5D304CB /* NSMutableDictionary+Safe.h in Headers */,
+				382253059731646C5E6C83A67FC3E644 /* NSMutableSet+Safe.h in Headers */,
+				F0BE0122D8410415CE79971AD972DDD8 /* NSMutableString+Safe.h in Headers */,
+				29262C055ED3B6DBA9192083064DEED4 /* NSNotificationCenter+Safe.h in Headers */,
+				DC4D550E041F74A33BC0F7394A6C86D0 /* NSNull+Safe.h in Headers */,
+				D55993B9480A5C2A0467D8E192D42418 /* NSObject+MsgReceiver.h in Headers */,
+				E95101DA413CBE490BB844D475242F4D /* NSObject+SafeKVO.h in Headers */,
+				3F16BCF2B98E2EFE3362DF8D40843A5D /* NSObject+WKZombie.h in Headers */,
+				8C77F370750D904AECAAEB6B532DCEF7 /* NSSet+Safe.h in Headers */,
+				3B1074FCB3A0C3CE8FADFE774E87F30A /* NSString+Safe.h in Headers */,
+				614AA473BDF053B6E9FBD7BA5F8A162A /* NSTimer+Safe.h in Headers */,
+				88BD47D0926D396574B1C434A3C27335 /* WKCrashManager.h in Headers */,
+				2920A743224B1B8FA583A8D18654EAB8 /* WKCrashReport.h in Headers */,
+				3265DA172B9346756729F940B4BA2A22 /* WKHeader.h in Headers */,
+				092B43A30B8D96F96BF2FAACC650739E /* WKMsgReceiver.h in Headers */,
+				BB537AA19C4765C3D5B4E21CEBA95839 /* WKSwizzle.h in Headers */,
+				02F0551BED2762559DB3BD23F8CC1D35 /* WKZombieManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46889937347F4D08F1F660CA55AB0980 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1596BA29767F6BDADA53929F67051EB3 /* MBProgressHUD-umbrella.h in Headers */,
+				D314EBEC8E2C5CF83463DD264BA2290B /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,15 +700,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D212434BE31263DA30A0D66A1DAF6B99 /* Pods-FFSwiftExtension_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A72C46AE8293C5C7D43E5446F07D1CF9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C56D9C19DC9365912F669CE1405E18F0 /* MBProgressHUD-umbrella.h in Headers */,
-				8CCF8325A763F44F9E0D7089BD0A0F65 /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,17 +728,18 @@
 		};
 		5C230CE5EFC9BDEB13762638E3E41FE7 /* FFSwiftExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F46389F9C042DB13DC90C55A3AE1DCBB /* Build configuration list for PBXNativeTarget "FFSwiftExtension" */;
+			buildConfigurationList = C269B9D55D5BC470166CED496C345504 /* Build configuration list for PBXNativeTarget "FFSwiftExtension" */;
 			buildPhases = (
-				5330ABB65C2A29CA021CBAD9A66F7320 /* Headers */,
-				657589737FD86E4A8EEB0DA639B247AC /* Sources */,
-				762B2FC15E000FEE3EEFE93DB902EDBC /* Frameworks */,
-				6263CB8B1D32FDC88FF0A9112E0F6CA0 /* Resources */,
+				0ED62636D495409C2981BBD39FA55D6B /* Headers */,
+				09426469BCECB71F85CDE1C5BBA85FF9 /* Sources */,
+				48A90F64B1CF115479744C40221392A4 /* Frameworks */,
+				42DCA98A2B6809C5476E38E30FF3E391 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				15E8B6DEA781B3A7A5901C4C9BF2C857 /* PBXTargetDependency */,
+				2770E95741723F3753A87DDEEACC9F5D /* PBXTargetDependency */,
+				44203406FFE106AB16FC6572CB2870E9 /* PBXTargetDependency */,
 			);
 			name = FFSwiftExtension;
 			productName = FFSwiftExtension;
@@ -717,12 +748,12 @@
 		};
 		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31D51E03946776BDF7118C1252252D27 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildConfigurationList = B69A85928F4827F4E840B01178491EA1 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
 			buildPhases = (
-				A72C46AE8293C5C7D43E5446F07D1CF9 /* Headers */,
-				8484E57C435EBE4D94CAE0C41D9BC890 /* Sources */,
-				166D562AD1C53BBF762BB19547F96926 /* Frameworks */,
-				E4D444B2BF14F7E60A74D23A6A353381 /* Resources */,
+				46889937347F4D08F1F660CA55AB0980 /* Headers */,
+				AD7E1C6CE30719ADF27E30124FA9140F /* Sources */,
+				7F09B61C1471C37B76BF62DF6CA05A07 /* Frameworks */,
+				E87ED9146615B1C91B671E212AE17CA3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -732,6 +763,23 @@
 			productName = MBProgressHUD;
 			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		DBA4AD4A99AC056BEBA4A358414BFDA2 /* FFSwiftExtension-FFSwiftExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68AF8B513B1F61C728F085AD932AD688 /* Build configuration list for PBXNativeTarget "FFSwiftExtension-FFSwiftExtension" */;
+			buildPhases = (
+				DB51EC438DD0D1422E8DDC675483783A /* Sources */,
+				BB5E5E20A113BB107078D3A1E026967B /* Frameworks */,
+				68BFF4BFAC2822E917ABE8496EB7ED6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FFSwiftExtension-FFSwiftExtension";
+			productName = "FFSwiftExtension-FFSwiftExtension";
+			productReference = 638972E864580D61B44195D1B226F78C /* FFSwiftExtension.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		E70F549CFFB67B2FEEE79F6613678481 /* Pods-FFSwiftExtension_Tests */ = {
 			isa = PBXNativeTarget;
@@ -770,11 +818,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9ED643C134E0EFE03518B7FFA2129E39 /* Products */;
+			productRefGroup = F042998E0A31A6D22A64DBCC6CB8BF3C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5C230CE5EFC9BDEB13762638E3E41FE7 /* FFSwiftExtension */,
+				DBA4AD4A99AC056BEBA4A358414BFDA2 /* FFSwiftExtension-FFSwiftExtension */,
 				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
 				25457ABF1121EEDD258AC48568C374BB /* Pods-FFSwiftExtension_Example */,
 				E70F549CFFB67B2FEEE79F6613678481 /* Pods-FFSwiftExtension_Tests */,
@@ -790,11 +839,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6263CB8B1D32FDC88FF0A9112E0F6CA0 /* Resources */ = {
+		42DCA98A2B6809C5476E38E30FF3E391 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6F7D6F8D01F94A1E4E54C13795D9233 /* FFSwiftExtension.bundle in Resources */,
+				DA895DACCF8F070C83017F92336CB405 /* FFSwiftExtension.bundle in Resources */,
+				0973BAD4DBF629AF9B99ACD5B788FA63 /* FFSwiftExtension.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BFF4BFAC2822E917ABE8496EB7ED6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFE98DAFCC30B52ED2AFC1C69B03172 /* DeviceList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -805,7 +863,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4D444B2BF14F7E60A74D23A6A353381 /* Resources */ = {
+		E87ED9146615B1C91B671E212AE17CA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -815,6 +873,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		09426469BCECB71F85CDE1C5BBA85FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCEB0C2D84C0A86D9904DC7A74085CB /* Array+Safe.swift in Sources */,
+				EC97BECC01D36DE0F3457C4CE7419EFB /* AttributedString+Ex.swift in Sources */,
+				902642786CF5D1CD70A3E626019F387E /* CGFloat+Ex.swift in Sources */,
+				E843AEE89DFDA38F67BC990B18ED9C3C /* DeviceUtil.m in Sources */,
+				35C38FE64FB537D1A0D208AE3A2338E4 /* Dictionary+Safe.swift in Sources */,
+				FAB7801D72ADC55E046B33F023F6E725 /* Double+Ex.swift in Sources */,
+				BAF02BA5BC656A043F15A2214C6938B5 /* FFSwiftExtension-dummy.m in Sources */,
+				EEB6114C2E494918D52C513B6A711A17 /* HUDView.swift in Sources */,
+				881F3C7B91832CF3B48A1C918F0CEAAA /* Int+Ex.swift in Sources */,
+				4ADDB4E60F93D08A6E203C13B78625EA /* NSArray+Safe.m in Sources */,
+				0E8D1F56C415C3A984A791D3516BD622 /* NSDictionary+Safe.m in Sources */,
+				F5F078B04A2F9720510A5FA80B31783D /* NSMutableArray+Safe.m in Sources */,
+				873A11A0DAEF42F2F391E19BEAEBCE39 /* NSMutableArray+SafeObjectAtIndex.m in Sources */,
+				E9ECFFC1AAB39D5FC16C509DC917E38A /* NSMutableDictionary+Safe.m in Sources */,
+				871FE3137B429E3741764B4771C8554E /* NSMutableSet+Safe.m in Sources */,
+				5ACE4CA6E905F3E2452DC463395F498C /* NSMutableString+Safe.m in Sources */,
+				7B2CDB11B052DAA58945DD396228C583 /* NSNotificationCenter+Safe.m in Sources */,
+				2CB10B01D5434B9F02478641DA267802 /* NSNull+Safe.m in Sources */,
+				746E0E592D6744754EF0EBAE7CDBCB7C /* NSObject+MsgReceiver.m in Sources */,
+				A914A96D6710D0AC8EF341369FA99EC1 /* NSObject+SafeKVO.m in Sources */,
+				E4D864E8A6B8F0AF2DCF53AEF39F41A0 /* NSSet+Safe.m in Sources */,
+				6547E5BA6226C7DB67FAA74BDF266D53 /* NSString+Safe.m in Sources */,
+				ED735E42E1F81DB31FB1A0A003ECFA1F /* NSTimer+Safe.m in Sources */,
+				4C5B0C8901A5EBEDB105F732B38ABC82 /* String+Ex.swift in Sources */,
+				F9DEB803C9A80ABF1F49500A178CA47E /* UIApplication+Ex.swift in Sources */,
+				A5B822C5C5253D91CE73F88ECBCF0CD1 /* UIButton+Ex.swift in Sources */,
+				3060C1FBD8113406309C90D5787324B6 /* UIColor+Ex.swift in Sources */,
+				F4A0C8F09053CEFE98310741A6CD769C /* UILabel+Ex.swift in Sources */,
+				08EDCFF48886EC320ED01F90BBDFBA3B /* UIPasteboard+Ex.swift in Sources */,
+				44CB8AD633AB0E0712B751A7125FF471 /* UIScreen+Ex.swift in Sources */,
+				65EA0117D5186B1BF20313027CC3B04C /* UIView+Ex.swift in Sources */,
+				B7CA48FA038407018601E36A39C4E7B9 /* UIViewController+Ex.swift in Sources */,
+				19670B548DC2812E0436AD41B5E6607C /* UserDefaults.swift in Sources */,
+				82E98CD3B79BF9B2C72EEC916D8F4DC6 /* WKCrashManager.m in Sources */,
+				2E0F959456A763B9BCCD212880FA0B28 /* WKCrashReport.m in Sources */,
+				94F8319C23664E479A11345DF2184F95 /* WKMsgReceiver.m in Sources */,
+				E3D6D9E1215CDD0A4BFF796ADCDDD5A9 /* WKZombieManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F4B7CE62E804EBA8C780E61F1BFDF4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -823,56 +925,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		657589737FD86E4A8EEB0DA639B247AC /* Sources */ = {
+		AD7E1C6CE30719ADF27E30124FA9140F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42C3907FB4AE5BB636A15B4CC54B8689 /* Array+Safe.swift in Sources */,
-				EA8C40F6CC982BB45F1D472D3A309BAE /* AttributedString+Ex.swift in Sources */,
-				34F7D48ADBB1B8974BF1676F215C8AC1 /* CGFloat+Ex.swift in Sources */,
-				56E7DCB7FB452AEEB7CE66F413D63C69 /* DeviceUtil.m in Sources */,
-				B0860A9619ED06E40BC63C1FE50D5682 /* Dictionary+Safe.swift in Sources */,
-				4B38EF1E07A447287A113F5F090D7D33 /* Double+Ex.swift in Sources */,
-				2F3A30D0B4148093675561DB992768CC /* FFSwiftExtension-dummy.m in Sources */,
-				E1E912C091644A2C4DFC38A9DB516B6A /* HUDView.swift in Sources */,
-				DB8D5FE3C54DD90D00FF2827DCF44787 /* Int+Ex.swift in Sources */,
-				5346E973AA4D1107630B027498CECFBE /* NSArray+Safe.m in Sources */,
-				25FB1019146B7FBDC19C0384EE967318 /* NSDictionary+Safe.m in Sources */,
-				277189B876787386520FF359F6D2058B /* NSMutableArray+Safe.m in Sources */,
-				FE2635698F94DDBDD9F8930A1BC5C870 /* NSMutableArray+SafeObjectAtIndex.m in Sources */,
-				3042F91A09A6EC68B629A5738028995B /* NSMutableDictionary+Safe.m in Sources */,
-				A5E1BC3AE120ED9D8CC0AB51EBFC5CD3 /* NSMutableSet+Safe.m in Sources */,
-				B08D4FDA2A3BF86D4E5B72DFD96B80AD /* NSMutableString+Safe.m in Sources */,
-				DEBCC29131E0BBFDEB06AA320B319A67 /* NSNotificationCenter+Safe.m in Sources */,
-				85CF7D08B6E0F68DC79C77F25D436130 /* NSNull+Safe.m in Sources */,
-				10B0A510F59A67149C263B0A6CEFC8A0 /* NSObject+MsgReceiver.m in Sources */,
-				78CD653A31C88DD0582BE6817AD9025B /* NSObject+SafeKVO.m in Sources */,
-				21066C45236D1E7E1A19398E3F819E32 /* NSSet+Safe.m in Sources */,
-				328B88B1339E1B3C72EC8CA8D43B76CC /* NSString+Safe.m in Sources */,
-				E67AECBEE0AD0DFE4F61644DDC9F62E3 /* NSTimer+Safe.m in Sources */,
-				98CF60C82A20C1E40188E090D766A085 /* String+Ex.swift in Sources */,
-				8C698491ADB8374B53ACD2CFE99944C1 /* UIApplication+Ex.swift in Sources */,
-				238C58386439958732E1899D2FC32FE2 /* UIButton+Ex.swift in Sources */,
-				BA4BABAEE4BD5CFE114D755C8EE5899E /* UIColor+Ex.swift in Sources */,
-				CB6D633EAFC8E0C441A8EE21789A8339 /* UILabel+Ex.swift in Sources */,
-				28B98E9E0353561F606E0C9C7E3FC9AD /* UIPasteboard+Ex.swift in Sources */,
-				BD7C7A50F211728F2D3BA0079B8A4C9F /* UIScreen+Ex.swift in Sources */,
-				E8A775420F29E686C45489923D8B9D28 /* UIView+Ex.swift in Sources */,
-				FEFCB387176D5FE3F8101CA746E10453 /* UIViewController+Ex.swift in Sources */,
-				AA023AB23278D2E7062ED42368925DCE /* UserDefaults.swift in Sources */,
-				2E693F4A7BF396A283CE4E31CD6614DF /* WKCrashManager.m in Sources */,
-				C7DA9EA353DDDE696B8755703153899A /* WKCrashReport.m in Sources */,
-				B15F29A51FD62D77EBE1FF691F049F1D /* WKMsgReceiver.m in Sources */,
-				BA190CE6956E519648B3A2DC569A99EC /* WKZombieManager.m in Sources */,
+				48C1CDB15E8088EE796972A5688B67CD /* MBProgressHUD-dummy.m in Sources */,
+				4CF60CA35BE798D424E39EA15A552913 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8484E57C435EBE4D94CAE0C41D9BC890 /* Sources */ = {
+		DB51EC438DD0D1422E8DDC675483783A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC78409865399DD743B84EB34A828E88 /* MBProgressHUD-dummy.m in Sources */,
-				88472013CBCBCD7B7856FF96046F0393 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -887,17 +952,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15E8B6DEA781B3A7A5901C4C9BF2C857 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MBProgressHUD;
-			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = D92E201C9BFF147C06C6ACC2068C7879 /* PBXContainerItemProxy */;
-		};
 		2391A38D49D1276EFFE0E42295E0A4F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
 			targetProxy = 18833B7D19BD5324171AD38C44ED8B8D /* PBXContainerItemProxy */;
+		};
+		2770E95741723F3753A87DDEEACC9F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FFSwiftExtension-FFSwiftExtension";
+			target = DBA4AD4A99AC056BEBA4A358414BFDA2 /* FFSwiftExtension-FFSwiftExtension */;
+			targetProxy = 2DA0CA03D9D849376DB33362508BC896 /* PBXContainerItemProxy */;
+		};
+		44203406FFE106AB16FC6572CB2870E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 8802B9FE518CDD4E4B6DFD74E0624DBA /* PBXContainerItemProxy */;
 		};
 		5146B887C3D67A98B5C635A415B9C918 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -914,9 +985,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2D64E2FB533CA164CBE3B555B5EC093F /* Release */ = {
+		46B9A5515CB951A3F9BD38C0F86F5488 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB41E1AD6108A35BA74DEC32A2675F69 /* FFSwiftExtension.release.xcconfig */;
+			baseConfigurationReference = D8ED23F6C98D73AF3FAF501224602CB6 /* FFSwiftExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FFSwiftExtension";
+				IBSC_MODULE = FFSwiftExtension;
+				INFOPLIST_FILE = "Target Support Files/FFSwiftExtension/ResourceBundle-FFSwiftExtension-FFSwiftExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FFSwiftExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		52860997DB3B779A3750952E66E1F621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -927,24 +1015,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FFSwiftExtension/FFSwiftExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FFSwiftExtension/FFSwiftExtension-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FFSwiftExtension/FFSwiftExtension.modulemap";
-				PRODUCT_MODULE_NAME = FFSwiftExtension;
-				PRODUCT_NAME = FFSwiftExtension;
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		52B3A777AF237B53F6C08FBF3322EE13 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -980,9 +1067,9 @@
 			};
 			name = Release;
 		};
-		A1C3EA403541281AF35EDC1321B1D967 /* Release */ = {
+		998D704ABD921BA0C8FB9F53B9FB1005 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */;
+			baseConfigurationReference = D8ED23F6C98D73AF3FAF501224602CB6 /* FFSwiftExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -993,18 +1080,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FFSwiftExtension/FFSwiftExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FFSwiftExtension/FFSwiftExtension-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
-				PRODUCT_MODULE_NAME = MBProgressHUD;
-				PRODUCT_NAME = MBProgressHUD;
+				MODULEMAP_FILE = "Target Support Files/FFSwiftExtension/FFSwiftExtension.modulemap";
+				PRODUCT_MODULE_NAME = FFSwiftExtension;
+				PRODUCT_NAME = FFSwiftExtension;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1012,9 +1099,9 @@
 			};
 			name = Release;
 		};
-		A9208964756B5287CC5CBCAE31D56070 /* Debug */ = {
+		AA037D772D1670503C04A4AF9421AA70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2438629E06B2B178F54BE8BE36FB387C /* FFSwiftExtension.debug.xcconfig */;
+			baseConfigurationReference = 3F7953FDA4F38D27D9168E42AD36C25E /* FFSwiftExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1040,6 +1127,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD1CA818EA68D590DD8EDB95FCA3D597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7953FDA4F38D27D9168E42AD36C25E /* FFSwiftExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FFSwiftExtension";
+				IBSC_MODULE = FFSwiftExtension;
+				INFOPLIST_FILE = "Target Support Files/FFSwiftExtension/ResourceBundle-FFSwiftExtension-FFSwiftExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FFSwiftExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1167,9 +1271,9 @@
 			};
 			name = Debug;
 		};
-		C04818AD1528EA990A4FD3B071E254FD /* Debug */ = {
+		C5BEB6CD48174B0B6C5C4D4A5CCD784C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */;
+			baseConfigurationReference = 6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1193,10 +1297,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		C909B82EBD5F9B7EB34CA1E53D5702AB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1301,15 +1406,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31D51E03946776BDF7118C1252252D27 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C04818AD1528EA990A4FD3B071E254FD /* Debug */,
-				A1C3EA403541281AF35EDC1321B1D967 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1328,20 +1424,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		68AF8B513B1F61C728F085AD932AD688 /* Build configuration list for PBXNativeTarget "FFSwiftExtension-FFSwiftExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1CA818EA68D590DD8EDB95FCA3D597 /* Debug */,
+				46B9A5515CB951A3F9BD38C0F86F5488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B69A85928F4827F4E840B01178491EA1 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52860997DB3B779A3750952E66E1F621 /* Debug */,
+				C5BEB6CD48174B0B6C5C4D4A5CCD784C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C269B9D55D5BC470166CED496C345504 /* Build configuration list for PBXNativeTarget "FFSwiftExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA037D772D1670503C04A4AF9421AA70 /* Debug */,
+				998D704ABD921BA0C8FB9F53B9FB1005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C3B835D63E7AFE27793257534FB622E0 /* Build configuration list for PBXNativeTarget "Pods-FFSwiftExtension_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2CA89D85D48523FE91763A09DA76A22 /* Debug */,
 				CB3ECC40D07EBC799C580E069C344AAC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F46389F9C042DB13DC90C55A3AE1DCBB /* Build configuration list for PBXNativeTarget "FFSwiftExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9208964756B5287CC5CBCAE31D56070 /* Debug */,
-				2D64E2FB533CA164CBE3B555B5EC093F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

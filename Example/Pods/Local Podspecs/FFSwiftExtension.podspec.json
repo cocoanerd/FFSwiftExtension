@@ -54,7 +54,12 @@
     },
     {
       "name": "WKCrashSDK",
-      "source_files": "FFSwiftExtension/WKCrashSDK/**/*.{h,m}"
+      "source_files": "FFSwiftExtension/WKCrashSDK/**/*.{h,m}",
+      "resource_bundles": {
+        "FFSwiftExtension": [
+          "FFSwiftExtension/WKCrashSDK/**/DeviceList.plist"
+        ]
+      }
     }
   ],
   "swift_version": "5.0"

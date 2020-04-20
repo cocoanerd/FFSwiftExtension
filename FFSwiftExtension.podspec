@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFSwiftExtension'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '这是一个总结性的FFSwiftExtension.'
 
 # This description is used to generate tags and improve search results.
@@ -50,6 +50,9 @@ Pod::Spec.new do |s|
   
   s.subspec 'WKCrashSDK' do |ss|
       ss.source_files = 'FFSwiftExtension/WKCrashSDK/**/*.{h,m}'
+      ss.resource_bundles = {
+        'FFSwiftExtension' => ['FFSwiftExtension/WKCrashSDK/**/DeviceList.plist']
+      }
   end
   
   # s.resource_bundles = {

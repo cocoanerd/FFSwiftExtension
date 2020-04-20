@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension Array {
+public extension Array {
     /// 安全的下标取值 arr[5]这样会崩溃，arr[safe: 5]这样不会
     /// - Parameter index: 下标
     subscript (safe index: Int) -> Element? {
