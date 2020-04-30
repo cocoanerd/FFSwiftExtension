@@ -26,6 +26,8 @@ class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let rightBarButtonItem = UIBarButtonItem.init(title: "直达tab", style: .done, target: self, action: #selector(redirectToTabs))
+        self.navigationItem.rightBarButtonItems = [rightBarButtonItem]
         self.navigationItem.title = "DetailViewController"
         view.backgroundColor = UIColor.randomColor
         doSomething()
@@ -38,6 +40,10 @@ class DetailViewController: UIViewController {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    @objc fileprivate func redirectToTabs() {
+        UITabBarController.redirectToTabs(targetClass: ThirdViewController.classForCoder())
     }
     
     fileprivate func doSomething() {

@@ -31,7 +31,7 @@
   "subspecs": [
     {
       "name": "UIKit",
-      "source_files": "FFSwiftExtension/UI{Application,Button,Color,Label,Pasteboard,Screen,View,ViewController}+Ex.swift",
+      "source_files": "FFSwiftExtension/UI{Application,Button,Color,Label,Pasteboard,Screen,View,ViewController,TabBarController}+Ex.swift",
       "dependencies": {
         "FFSwiftExtension/Views": [
 

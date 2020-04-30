@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFSwiftExtension'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '这是一个总结性的FFSwiftExtension.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   
   
   s.subspec 'UIKit' do |ss|
-      ss.source_files = 'FFSwiftExtension/UI{Application,Button,Color,Label,Pasteboard,Screen,View,ViewController}+Ex.swift'
+      ss.source_files = 'FFSwiftExtension/UI{Application,Button,Color,Label,Pasteboard,Screen,View,ViewController,TabBarController}+Ex.swift'
       ss.dependency 'FFSwiftExtension/Views'
       ss.dependency 'MBProgressHUD'
   end
